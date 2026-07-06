@@ -1,7 +1,14 @@
 import streamlit as st
-from auth.auth_utils import create_user, username_exists
-
+from auth.auth_utils import (
+    create_user,
+    username_exists,
+    email_exists
+)
 def show_signup():
+
+    if st.button("⬅ Back to Home"):
+        st.session_state.page = "home"
+        st.rerun()
 
     st.title("📝 Create New Account")
 
@@ -44,14 +51,20 @@ def show_signup():
         else:
 
             if username_exists(username):
+
                 st.error("Username already exists.")
 
+            elif email_exists(email):
+
+                st.error("Email already exists.")
+
             else:
+
                 create_user(
                     full_name,
                     username,
-                     email,
+                    email,
                     password
                 )
 
-                st.success("Account created successfully!") 
+                st.success("Account created successfully!")

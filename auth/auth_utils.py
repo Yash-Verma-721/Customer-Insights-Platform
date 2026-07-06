@@ -28,6 +28,23 @@ def username_exists(username):
 
     return user is not None
 
+def email_exists(email):
+    """Check if the email already exists."""
+
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    cursor.execute(
+        "SELECT id FROM users WHERE email = ?",
+        (email,)
+    )
+
+    user = cursor.fetchone()
+
+    conn.close()
+
+    return user is not None
+
 def create_user(full_name, username, email, password):
     """Create a new user."""
 

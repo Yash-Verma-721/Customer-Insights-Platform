@@ -1,4 +1,5 @@
 import streamlit as st
+
 from modules.signup import show_signup
 from modules.login import show_login
 
@@ -12,24 +13,42 @@ if "page" not in st.session_state:
     st.session_state.page = "home"
 
 
-st.title("📊 Customer Insight Platform")
 
-st.write(
-    "Turn your customer data into meaningful insights."
-)
 
-st.divider()
+if st.session_state.page == "home":
 
-col1, col2 = st.columns(2)
+    st.title("📊 Customer Insight Platform")
 
-with col1:
+    st.write(
+        "Turn your customer data into meaningful insights."
+    )
 
-    if st.button("Login", use_container_width=True):
+    st.divider()
 
-        st.session_state.page = "login"
+    col1, col2 = st.columns(2)
 
-with col2:
+    with col1:
 
-    if st.button("Create Account", use_container_width=True):
+        if st.button("Login", use_container_width=True):
+            st.session_state.page = "login"
+            st.rerun()
 
-        st.session_state.page = "signup"
+    with col2:
+
+        if st.button("Create Account", use_container_width=True):
+            st.session_state.page = "signup"
+            st.rerun()
+
+
+
+
+elif st.session_state.page == "login":
+
+    show_login()
+
+
+
+
+elif st.session_state.page == "signup":
+
+    show_signup()
