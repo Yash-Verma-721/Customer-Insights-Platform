@@ -68,3 +68,23 @@ def create_user(full_name, username, email, password):
 
     conn.commit()
     conn.close()
+
+def get_user(username):
+    """Return user details if username exists."""
+
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    cursor.execute(
+        """
+        SELECT * FROM users
+        WHERE username = ?
+        """,
+        (username,)
+    )
+
+    user = cursor.fetchone()
+
+    conn.close()
+
+    return user

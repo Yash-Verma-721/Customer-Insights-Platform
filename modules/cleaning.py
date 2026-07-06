@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 
 
+
+
 def show_cleaning():
 
     st.title("🧹 Data Cleaning")
@@ -11,6 +13,10 @@ def show_cleaning():
         return
 
     df = st.session_state["df"]
+
+    if "success_message" in st.session_state:
+        st.success(st.session_state["success_message"])
+        del st.session_state["success_message"]
 
     st.subheader("Dataset Summary")
 
@@ -61,15 +67,22 @@ def show_cleaning():
 
         st.session_state["df"] = df.drop_duplicates()
 
-        st.success("Duplicate rows removed.")
+        st.session_state["success_message"] = "Duplicate rows removed."
 
         st.rerun()
+
+        
 
     if st.button("Fill Missing Values"):
 
-        st.session_state["df"] = df.fillna("Not Available")
+        numeric_columns = df.select_dtypes(include="number").columns
+        text_columns = df.select_dtypes(exclude="number").columns
 
-        st.success("Missing values filled.")
+        df[numeric_columns] = df[numeric_columns].fillna(0)
+        df[text_columns] = df[text_columns].fillna("N/A")
+
+        st.session_state["success_message"] = "Missing values filled."
 
         st.rerun()
     
+        

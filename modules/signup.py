@@ -68,3 +68,9 @@ def show_signup():
                 )
 
                 st.success("Account created successfully!")
+
+                st.info("You can now login.")
+
+                st.session_state.page = "login"
+
+                st.rerun()
