@@ -1,53 +1,59 @@
-import bcrypt
-from database.database import get_connection
+# this is temporary file will use after testing each code module
 
 
-def hash_password(password):
-    """Convert a plain password into a secure hashed password."""
-    return bcrypt.hashpw(password.encode(), bcrypt.gensalt())
+
+# import streamlit as st
+
+# from modules.signup import show_signup
+# from modules.login import show_login
+# from modules.upload import show_upload
+
+# st.set_page_config(
+#     page_title="Customer Insight Platform",
+#     page_icon="📊",
+#     layout="wide"
+# )
+
+# if "page" not in st.session_state:
+#     st.session_state.page = "home"
 
 
-def verify_password(password, hashed_password):
-    """Verify the entered password with the stored hashed password."""
-    return bcrypt.checkpw(password.encode(), hashed_password)
 
-def username_exists(username):
-    """Check if the username already exists."""
 
-    conn = get_connection()
-    cursor = conn.cursor()
+# if st.session_state.page == "home":
 
-    cursor.execute(
-        "SELECT * FROM users WHERE username = ?",
-        (username,)
-    )
+#     st.title("📊 Customer Insight Platform")
 
-    user = cursor.fetchone()
+#     st.write(
+#         "Turn your customer data into meaningful insights."
+#     )
 
-    conn.close()
+#     st.divider()
 
-    return user is not None
+#     col1, col2 = st.columns(2)
 
-def create_user(full_name, username, email, password):
-    """Create a new user."""
+#     with col1:
 
-    hashed_password = hash_password(password)
+#         if st.button("Login", use_container_width=True):
+#             st.session_state.page = "login"
+#             st.rerun()
 
-    conn = get_connection()
-    cursor = conn.cursor()
+#     with col2:
 
-    cursor.execute(
-        """
-        INSERT INTO users(full_name, username, email, password)
-        VALUES(?,?,?,?)
-        """,
-        (
-            full_name,
-            username,
-            email,
-            hashed_password
-        )
-    )
+#         if st.button("Create Account", use_container_width=True):
+#             st.session_state.page = "signup"
+#             st.rerun()
 
-    conn.commit()
-    conn.close()
+
+
+
+# elif st.session_state.page == "login":
+
+#     show_login()
+
+
+
+
+# elif st.session_state.page == "signup":
+
+#     show_signup()
