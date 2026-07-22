@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+/* Main Background and Typography */
+.stApp {
+    background:
+        radial-gradient(circle at 12% 18%, rgba(37, 99, 235, 0.16) 0%, rgba(37, 99, 235, 0) 26%),
+        radial-gradient(circle at 88% 8%, rgba(168, 85, 247, 0.10) 0%, rgba(168, 85, 247, 0) 22%),
+        linear-gradient(135deg, rgb(10, 18, 30) 0%, rgb(8, 15, 25) 100%) !important;
+    font-family: 'Outfit', sans-serif !important;
+    color: #f1f5f9;
+}
+
+.block-container {
+    padding-top: 2.25rem !important;
+    padding-bottom: 2.5rem !important;
+    max-width: 1240px !important;
+}
+
+/* Header Styling */
+[data-testid="stHeader"] {
+    background: transparent !important;
+}
+
+/* Force Dark Theme Overrides for generic elements */
+h1, h2, h3, h4, h5, h6, p, label {
+    font-family: 'Outfit', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6, p, span, div, label {
+    color: #f8fafc;
+}
+
+/* Specific Headings */
+h1 {
+    font-weight: 700 !important;
+    background: linear-gradient(135deg, #60a5fa, #c084fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.02em;
+}
+h2 {
+    font-weight: 600 !important;
+    color: #e2e8f0 !important;
+}
+
+/* Sidebar Styling - Glassmorphism */
+[data-testid="stSidebar"] {
+    background: rgba(10, 18, 32, 0.76) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border-right: 1px solid rgba(148, 163, 184, 0.14) !important;
+}
+
+[data-testid="stSidebarNav"] * {
+    color: #cbd5e1 !important;
+}
+
+/* Primary Buttons */
+.stButton > button[kind="primary"] {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 0.5rem 1rem !important;
+    font-weight: 600 !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4) !important;
+    min-height: 2.7rem !important;
+}
+
+.stButton > button[kind="primary"]:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.6) !important;
+    background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%) !important;
+}
+
+/* Secondary Buttons */
+.stButton > button[kind="secondary"] {
+    background: rgba(255, 255, 255, 0.05) !important;
+    color: #f8fafc !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+    min-height: 2.7rem !important;
+}
+
+.stButton > button[kind="secondary"]:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Inputs, Selectboxes, Textareas */
+.stTextInput > div > div > input, 
+.stSelectbox > div > div > div, 
+.stNumberInput > div > div > input, 
+.stTextArea > div > div > textarea,
+.stMultiSelect > div > div > div {
+    background-color: rgba(30, 41, 59, 0.5) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #f8fafc !important;
+    border-radius: 8px !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+.stTextInput > div > div > input:focus, 
+.stSelectbox > div > div > div:focus-within, 
+.stNumberInput > div > div > input:focus, 
+.stTextArea > div > div > textarea:focus,
+.stMultiSelect > div > div > div:focus-within {
+    border-color: #3b82f6 !important;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3) !important;
+    background-color: rgba(30, 41, 59, 0.8) !important;
+}
+
+/* Checkboxes and Radios */
+.stCheckbox > label > div > p, .stRadio > label > div > p {
+    color: #cbd5e1 !important;
+}
+
+/* Cards & Expanders (Glassmorphism) */
+div[data-testid="stExpander"], 
+div[data-testid="stMetric"],
+div.stCard {
+    background: rgba(15, 23, 42, 0.46) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 10px !important;
+    padding: 1rem !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+div[data-testid="stMetric"] {
+    min-height: 132px !important;
+}
+
+div[data-testid="stExpander"]:hover, 
+div[data-testid="stMetric"]:hover,
+div.stCard:hover {
+    transform: translateY(-4px) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Metrics Styling */
+[data-testid="stMetricValue"] {
+    font-size: 2rem !important;
+    font-weight: 800 !important;
+    background: linear-gradient(135deg, #60a5fa, #c084fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow: visible !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #94a3b8 !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    line-height: 1.3 !important;
+}
+
+[data-testid="stMetricDelta"] {
+    font-size: 0.95rem !important;
+}
+
+/* Dataframes and Tables */
+[data-testid="stDataFrame"], [data-testid="stTable"] {
+    background: rgba(15, 23, 42, 0.72) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+/* Tabs Styling */
+.stTabs [data-baseweb="tab-list"] {
+    background-color: transparent !important;
+    gap: 0.5rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: transparent !important;
+    border: none !important;
+    color: #94a3b8 !important;
+    padding: 0.75rem 0.9rem !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+}
+
+.stTabs [aria-selected="true"] {
+    color: #60a5fa !important;
+    border-bottom: 2px solid #60a5fa !important;
+    background: rgba(59, 130, 246, 0.1) !important;
+    border-radius: 8px 8px 0 0 !important;
+}
+
+/* Alerts / Infos / Success / Errors */
+[data-testid="stNotification"] {
+    border-radius: 12px !important;
+    border: none !important;
+    backdrop-filter: blur(10px) !important;
+    color: white !important;
+}
+.stAlert {
+    border-radius: 10px !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    background: rgba(30, 41, 59, 0.6) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+/* Progress bar */
+.stProgress > div > div > div > div {
+    background: linear-gradient(90deg, #3b82f6, #a855f7) !important;
+    border-radius: 10px !important;
+}
+
+/* Custom existing classes */
+.hero-title {
+    font-size: 4.1rem !important;
+    font-weight: 800 !important;
+    background: linear-gradient(135deg, #60a5fa, #c084fc, #3b82f6) !important;
+    background-size: 200% auto !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-align: center;
+    padding-top: 3.2rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    animation: gradientFlow 5s ease infinite !important;
+}
+
+@keyframes gradientFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.hero-subtitle {
+    font-size: 1.25rem !important;
+    color: #cbd5e1 !important;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 400;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+hr {
+    border-color: rgba(148, 163, 184, 0.14) !important;
+}
+
+[data-testid="stFileUploader"] section {
+    background: rgba(15, 23, 42, 0.46) !important;
+    border: 1px dashed rgba(96, 165, 250, 0.36) !important;
+    border-radius: 10px !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.5);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(71, 85, 105, 0.8);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #60a5fa;
+}
+
+/* Plotly charts background */
+.js-plotly-plot .plotly .bg {
+    fill: transparent !important;
+}
+.js-plotly-plot .plotly .paper-bg {
+    fill: transparent !important;
+}
+
+/* Branded Loading Animation */
+.branded-spinner {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #60a5fa;
+    margin: 1rem 0;
+}
+
+.brand-letter {
+    display: inline-block;
+    filter: blur(4px);
+    opacity: 0;
+    animation: blurFade 2s ease-in-out infinite;
+}
+
+@keyframes blurFade {
+    0% { filter: blur(4px); opacity: 0; transform: translateY(2px); }
+    30% { filter: blur(0px); opacity: 1; transform: translateY(0); }
+    70% { filter: blur(0px); opacity: 1; transform: translateY(0); }
+    100% { filter: blur(4px); opacity: 0; transform: translateY(-2px); }
+}
+
+/* Hide default Streamlit spinner to ensure only branded loaders appear */
+[data-testid="stSpinner"] {
+    display: none !important;
+}
+
+/* Metric Context Sub-card */
+.metric-context-card {
+    background: rgba(15, 23, 42, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin-top: -12px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #cbd5e1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.metric-context-card .context-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.metric-context-card .context-label {
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+.metric-context-card .context-value {
+    color: #f8fafc;
+    font-weight: 600;
+}
+
+/* CSS-Only Tooltip for Truncated Text (Cards, Metrics, Expanders) */
+[data-testid="stMetricLabel"][title],
+[data-testid="stMetricValue"][title],
+div[data-testid="stExpander"] summary[title],
+.stCard [title] {
+    position: relative;
+    cursor: default;
+}
+
+[data-testid="stMetricLabel"][title]:hover::after,
+[data-testid="stMetricValue"][title]:hover::after,
+div[data-testid="stExpander"] summary[title]:hover::after,
+.stCard [title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    margin-bottom: 8px;
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    white-space: nowrap;
+    width: max-content;
+    z-index: 99999;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: normal;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(4px);
+    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out, visibility 0.2s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    line-height: 1.4;
+}
+
+[data-testid="stMetricLabel"][title]:hover::after,
+[data-testid="stMetricValue"][title]:hover::after,
+div[data-testid="stExpander"] summary[title]:hover::after,
+.stCard [title]:hover::after {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Custom HTML Metric Card Styles */
+.metric-title-container {
+    position: relative;
+    cursor: default;
+    margin-bottom: 0.5rem;
+}
+
+.metric-card-title {
+    color: #94a3b8;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.metric-card-value {
+    font-size: 2rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #60a5fa, #c084fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.2rem;
+}
+
+@media (max-width: 768px) {
+    .block-container {
+        padding-top: 1.25rem !important;
+    }
+
+    .hero-title {
+        font-size: 2.7rem !important;
+        padding-top: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.05rem !important;
+        margin-bottom: 2rem;
+    }
+
+    [data-testid="stMetricValue"],
+    .metric-card-value {
+        font-size: 1.65rem !important;
+    }
+}
+
+/* CSS Tooltip using data-tooltip attribute */
+[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    margin-bottom: 8px;
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    white-space: nowrap;
+    width: max-content;
+    z-index: 99999;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: normal;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(4px);
+    transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out, visibility 0.15s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    line-height: 1.4;
+}
+
+[data-tooltip]:hover::after {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* ========================================================================= */
+/* Authentication Pages (Login / Signup) Styling */
+/* ========================================================================= */
+
+/* Glow Behind Auth Card */
+.auth-glow-bg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+    height: 60vh;
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.05) 0%, rgba(0, 0, 0, 0) 65%);
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Base wrapper selector grouping column variants */
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) {
+    background: rgba(15, 23, 42, 0.7) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 16px !important;
+    padding: 3rem 2rem 2rem 2rem !important; /* Slightly reduced horizontal and bottom padding */
+    animation: authFadeIn 0.5s ease-out forwards !important;
+    position: relative !important;
+    z-index: 1 !important;
+    margin: 0 auto !important;
+    max-width: 480px !important; 
+}
+
+/* Animations */
+@keyframes authFadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Typography */
+.auth-title {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.auth-title a {
+    display: none !important;
+}
+
+.auth-subtitle {
+    text-align: center;
+    color: #cbd5e1;
+    margin-bottom: 3rem; /* Increased spacing before first input */
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Labels */
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) .stTextInput label p {
+    font-size: 0.85rem !important;
+    color: #cbd5e1 !important;
+    font-weight: 500 !important;
+    margin-bottom: 0.4rem !important;
+}
+
+/* Input Fields */
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) .stTextInput {
+    margin-bottom: 0.5rem !important; /* Improve spacing between form elements */
+}
+
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) .stTextInput > div > div {
+    min-height: 3.4rem !important; /* Taller inputs */
+    border-radius: 12px !important;
+    background-color: rgba(15, 23, 42, 0.5) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    transition: all 0.3s ease !important;
+}
+
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) .stTextInput > div > div:hover {
+    border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) .stTextInput > div > div:focus-within {
+    outline: none !important;
+    border-color: #3b82f6 !important;
+    box-shadow: 0 0 0 1px #3b82f6, 0 0 8px rgba(59, 130, 246, 0.25) !important; /* Soft blue glow */
+    background-color: rgba(15, 23, 42, 0.8) !important;
+}
+
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) .stTextInput > div > div > input {
+    height: 100% !important;
+    padding: 0 1.25rem !important;
+    color: #f8fafc !important;
+    outline: none !important;
+}
+
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) .stTextInput > div > div > input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) .stTextInput > div > div > input::placeholder {
+    color: #94a3b8 !important; /* Brighter placeholder for better readability */
+}
+
+/* Password Toggle Icon Blending */
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) .stTextInput > div > div > button,
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) .stTextInput > div > div > div[role="button"] {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+}
+
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) .stTextInput > div > div > button:focus,
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) .stTextInput > div > div > div[role="button"]:focus {
+    outline: none !important;
+    background-color: transparent !important;
+}
+
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) .stTextInput > div > div svg {
+    fill: #94a3b8 !important;
+}
+
+/* Primary Login/Signup Button */
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) button[kind="primary"] {
+    min-height: 3.2rem !important;
+    border-radius: 12px !important;
+    margin-top: 1.5rem !important;
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2) !important;
+    border: none !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) button[kind="primary"]:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.4) !important; /* Stronger hover shadow */
+}
+
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) button[kind="primary"]:active {
+    transform: translateY(0) !important;
+    box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2) !important;
+}
+
+/* Secondary Button (Back to Home) */
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) button[kind="secondary"] {
+    border-radius: 20px !important; /* Clean rounded pill */
+    padding: 0.35rem 1rem !important;
+    min-height: 2.4rem !important;
+    margin-bottom: 1.5rem !important;
+    font-size: 0.85rem !important;
+    color: #cbd5e1 !important;
+    background: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    transition: all 0.3s ease !important;
+}
+
+:is(div[data-testid="column"], div[data-testid="stColumn"]):has(.auth-card-marker) button[kind="secondary"]:hover {
+    background: rgba(255, 255, 255, 0.06) !important;
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}

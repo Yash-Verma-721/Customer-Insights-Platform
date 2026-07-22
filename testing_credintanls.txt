@@ -1,0 +1,48 @@
+Demo Admin
+Username: demo_admin
+Email: demo_admin@demo.marketplace.com
+Password: Admin@123
+---------------------------------------------------
+---------------------------------------------------
+
+Demo Vendors
+
+Password sabka same hai.
+
+Username: demo_vendor_001
+Username: demo_vendor_002
+Username: demo_vendor_003
+Username: demo_vendor_004
+Username: demo_vendor_005
+
+Password (sabke liye):
+
+Vendor@123
+
+--------------------------------------------------------
+Emails:
+
+demo_vendor_001@demo.marketplace.com
+demo_vendor_002@demo.marketplace.com
+demo_vendor_003@demo.marketplace.com
+demo_vendor_004@demo.marketplace.com
+demo_vendor_005@demo.marketplace.com
+
+----------------------------------------------------------
+-----------------------------------------------------------
+
+Demo Customers
+
+Usernames:
+
+demo_customer_001
+demo_customer_002
+...
+demo_customer_010
+
+Password:
+
+Customer@123
+
+--------------------------------------------------------------
+--------------------------------------------------------------

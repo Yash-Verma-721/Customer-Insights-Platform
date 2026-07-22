@@ -1,0 +1,1214 @@
+2026-07-18 15:21:17,417 - database.migration - INFO - Successfully rebuilt 'vendors' table to include 'user_id' column.
+2026-07-18 15:22:38,485 - services.payment_service - INFO - Processed 0 vendor payouts.
+2026-07-18 15:22:43,118 - services.payment_service - INFO - Processed 0 vendor payouts.
+2026-07-18 15:24:02,134 - services.payment_service - INFO - Processed 0 vendor payouts.
+2026-07-18 15:24:23,773 - services.payment_service - INFO - Processed 0 vendor payouts.
+2026-07-18 17:59:06,955 - services.vendor_service - INFO - AUDIT LOG: Vendor 1 changed from Pending to Approved by Admin 1. Reason: None
+2026-07-18 17:59:06,956 - services.vendor_service - INFO - VENDOR EVENT NOTIFICATION: Type=STATUS_CHANGE, Vendor=1, Details={'old': 'Pending', 'new': 'Approved', 'reason': None}
+2026-07-18 18:04:40,310 - services.payment_service - INFO - Processed 0 vendor payouts.
+2026-07-18 18:04:43,374 - services.payment_service - INFO - Processed 0 vendor payouts.
+2026-07-18 18:05:19,786 - services.payment_service - INFO - Processed 0 vendor payouts.
+2026-07-18 18:14:43,545 - services.payment_service - INFO - Processed 0 vendor payouts.
+2026-07-18 18:14:50,563 - services.payment_service - INFO - Processed 0 vendor payouts.
+2026-07-19 13:47:04,895 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 10}
+2026-07-19 13:47:04,895 - services.settlement_service - INFO - Settlement generated for item 10. Gross: 878.6999999999999, Net: 834.7649999999999
+2026-07-19 13:47:04,901 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 12}
+2026-07-19 13:47:04,901 - services.settlement_service - INFO - Settlement generated for item 12. Gross: 234.26, Net: 234.26
+2026-07-19 13:47:04,910 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 2 | Details: None
+2026-07-19 13:47:04,910 - services.settlement_service - INFO - Settlement 2 marked as Paid by Admin 7
+2026-07-19 13:47:04,916 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 15}
+2026-07-19 13:47:04,917 - services.settlement_service - INFO - Settlement generated for item 15. Gross: 292.9, Net: 278.255
+2026-07-19 13:47:04,923 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 16}
+2026-07-19 13:47:04,923 - services.settlement_service - INFO - Settlement generated for item 16. Gross: 191.39, Net: 181.82049999999998
+2026-07-19 13:47:04,929 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 21}
+2026-07-19 13:47:04,929 - services.settlement_service - INFO - Settlement generated for item 21. Gross: 412.68, Net: 392.046
+2026-07-19 13:47:04,938 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 22}
+2026-07-19 13:47:04,938 - services.settlement_service - INFO - Settlement generated for item 22. Gross: 308.47, Net: 293.04650000000004
+2026-07-19 13:47:04,946 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 6 | Details: None
+2026-07-19 13:47:04,946 - services.settlement_service - INFO - Settlement 6 marked as Paid by Admin 7
+2026-07-19 13:47:04,954 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 23}
+2026-07-19 13:47:04,954 - services.settlement_service - INFO - Settlement generated for item 23. Gross: 166.35000000000002, Net: 166.35000000000002
+2026-07-19 13:47:04,961 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 38}
+2026-07-19 13:47:04,961 - services.settlement_service - INFO - Settlement generated for item 38. Gross: 166.35000000000002, Net: 166.35000000000002
+2026-07-19 13:47:04,968 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 8 | Details: None
+2026-07-19 13:47:04,969 - services.settlement_service - INFO - Settlement 8 marked as Paid by Admin 7
+2026-07-19 13:47:04,976 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 39}
+2026-07-19 13:47:04,976 - services.settlement_service - INFO - Settlement generated for item 39. Gross: 1238.04, Net: 1176.138
+2026-07-19 13:47:04,983 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 40}
+2026-07-19 13:47:04,984 - services.settlement_service - INFO - Settlement generated for item 40. Gross: 898.02, Net: 898.02
+2026-07-19 13:47:04,991 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 10 | Details: None
+2026-07-19 13:47:04,991 - services.settlement_service - INFO - Settlement 10 marked as Paid by Admin 7
+2026-07-19 13:47:04,997 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 50}
+2026-07-19 13:47:04,997 - services.settlement_service - INFO - Settlement generated for item 50. Gross: 917.49, Net: 917.49
+2026-07-19 13:47:05,003 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 11 | Details: None
+2026-07-19 13:47:05,004 - services.settlement_service - INFO - Settlement 11 marked as Paid by Admin 7
+2026-07-19 13:47:05,009 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 51}
+2026-07-19 13:47:05,009 - services.settlement_service - INFO - Settlement generated for item 51. Gross: 90.07, Net: 85.56649999999999
+2026-07-19 13:47:05,015 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 52}
+2026-07-19 13:47:05,015 - services.settlement_service - INFO - Settlement generated for item 52. Gross: 925.4100000000001, Net: 879.1395000000001
+2026-07-19 13:47:05,022 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 13 | Details: None
+2026-07-19 13:47:05,023 - services.settlement_service - INFO - Settlement 13 marked as Paid by Admin 7
+2026-07-19 13:47:05,028 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 56}
+2026-07-19 13:47:05,029 - services.settlement_service - INFO - Settlement generated for item 56. Gross: 55.45, Net: 55.45
+2026-07-19 13:47:05,034 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 63}
+2026-07-19 13:47:05,034 - services.settlement_service - INFO - Settlement generated for item 63. Gross: 307.32, Net: 291.954
+2026-07-19 13:47:05,041 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 64}
+2026-07-19 13:47:05,041 - services.settlement_service - INFO - Settlement generated for item 64. Gross: 917.49, Net: 917.49
+2026-07-19 13:47:05,047 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 16 | Details: None
+2026-07-19 13:47:05,047 - services.settlement_service - INFO - Settlement 16 marked as Paid by Admin 7
+2026-07-19 13:47:05,053 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 78}
+2026-07-19 13:47:05,053 - services.settlement_service - INFO - Settlement generated for item 78. Gross: 925.4100000000001, Net: 879.1395000000001
+2026-07-19 13:47:05,059 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 17 | Details: None
+2026-07-19 13:47:05,059 - services.settlement_service - INFO - Settlement 17 marked as Paid by Admin 7
+2026-07-19 13:47:05,065 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 79}
+2026-07-19 13:47:05,065 - services.settlement_service - INFO - Settlement generated for item 79. Gross: 1145.46, Net: 1145.46
+2026-07-19 13:47:05,072 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 18 | Details: None
+2026-07-19 13:47:05,073 - services.settlement_service - INFO - Settlement 18 marked as Paid by Admin 7
+2026-07-19 13:47:05,079 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 80}
+2026-07-19 13:47:05,079 - services.settlement_service - INFO - Settlement generated for item 80. Gross: 234.26, Net: 234.26
+2026-07-19 13:47:05,085 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 82}
+2026-07-19 13:47:05,086 - services.settlement_service - INFO - Settlement generated for item 82. Gross: 574.17, Net: 545.4615
+2026-07-19 13:47:05,093 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 20 | Details: None
+2026-07-19 13:47:05,093 - services.settlement_service - INFO - Settlement 20 marked as Paid by Admin 7
+2026-07-19 13:47:05,099 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 89}
+2026-07-19 13:47:05,099 - services.settlement_service - INFO - Settlement generated for item 89. Gross: 611.66, Net: 611.66
+2026-07-19 13:47:05,106 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 21 | Details: None
+2026-07-19 13:47:05,106 - services.settlement_service - INFO - Settlement 21 marked as Paid by Admin 7
+2026-07-19 13:47:05,112 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 90}
+2026-07-19 13:47:05,112 - services.settlement_service - INFO - Settlement generated for item 90. Gross: 90.07, Net: 85.56649999999999
+2026-07-19 13:47:05,118 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 22 | Details: None
+2026-07-19 13:47:05,119 - services.settlement_service - INFO - Settlement 22 marked as Paid by Admin 7
+2026-07-19 13:47:05,125 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 91}
+2026-07-19 13:47:05,125 - services.settlement_service - INFO - Settlement generated for item 91. Gross: 925.4100000000001, Net: 879.1395000000001
+2026-07-19 13:47:05,132 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 101}
+2026-07-19 13:47:05,132 - services.settlement_service - INFO - Settlement generated for item 101. Gross: 117.61, Net: 111.7295
+2026-07-19 13:47:05,138 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 24 | Details: None
+2026-07-19 13:47:05,139 - services.settlement_service - INFO - Settlement 24 marked as Paid by Admin 7
+2026-07-19 13:47:05,144 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 102}
+2026-07-19 13:47:05,145 - services.settlement_service - INFO - Settlement generated for item 102. Gross: 78.37, Net: 78.37
+2026-07-19 13:47:05,150 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 103}
+2026-07-19 13:47:05,150 - services.settlement_service - INFO - Settlement generated for item 103. Gross: 1166.4, Net: 1108.0800000000002
+2026-07-19 13:47:05,158 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 26 | Details: None
+2026-07-19 13:47:05,158 - services.settlement_service - INFO - Settlement 26 marked as Paid by Admin 7
+2026-07-19 13:47:05,163 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 109}
+2026-07-19 13:47:05,164 - services.settlement_service - INFO - Settlement generated for item 109. Gross: 381.82, Net: 381.82
+2026-07-19 13:47:05,171 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 27 | Details: None
+2026-07-19 13:47:05,171 - services.settlement_service - INFO - Settlement 27 marked as Paid by Admin 7
+2026-07-19 13:47:05,177 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 110}
+2026-07-19 13:47:05,177 - services.settlement_service - INFO - Settlement generated for item 110. Gross: 855.03, Net: 855.03
+2026-07-19 13:47:05,183 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 111}
+2026-07-19 13:47:05,183 - services.settlement_service - INFO - Settlement generated for item 111. Gross: 1166.4, Net: 1108.0800000000002
+2026-07-19 13:47:05,190 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 29 | Details: None
+2026-07-19 13:47:05,190 - services.settlement_service - INFO - Settlement 29 marked as Paid by Admin 7
+2026-07-19 13:47:05,197 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 112}
+2026-07-19 13:47:05,197 - services.settlement_service - INFO - Settlement generated for item 112. Gross: 438.48, Net: 438.48
+2026-07-19 13:47:05,203 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 30 | Details: None
+2026-07-19 13:47:05,204 - services.settlement_service - INFO - Settlement 30 marked as Paid by Admin 7
+2026-07-19 13:47:05,209 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 113}
+2026-07-19 13:47:05,210 - services.settlement_service - INFO - Settlement generated for item 113. Gross: 855.03, Net: 855.03
+2026-07-19 13:47:05,215 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 114}
+2026-07-19 13:47:05,215 - services.settlement_service - INFO - Settlement generated for item 114. Gross: 825.36, Net: 784.092
+2026-07-19 13:47:05,222 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 115}
+2026-07-19 13:47:05,222 - services.settlement_service - INFO - Settlement generated for item 115. Gross: 299.34, Net: 299.34
+2026-07-19 13:47:05,228 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 118}
+2026-07-19 13:47:05,228 - services.settlement_service - INFO - Settlement generated for item 118. Gross: 917.49, Net: 917.49
+2026-07-19 13:47:05,234 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 119}
+2026-07-19 13:47:05,234 - services.settlement_service - INFO - Settlement generated for item 119. Gross: 235.22, Net: 223.459
+2026-07-19 13:47:05,241 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 120}
+2026-07-19 13:47:05,241 - services.settlement_service - INFO - Settlement generated for item 120. Gross: 616.94, Net: 586.0930000000001
+2026-07-19 13:47:05,248 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 36 | Details: None
+2026-07-19 13:47:05,248 - services.settlement_service - INFO - Settlement 36 marked as Paid by Admin 7
+2026-07-19 13:47:05,254 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 121}
+2026-07-19 13:47:05,255 - services.settlement_service - INFO - Settlement generated for item 121. Gross: 574.17, Net: 545.4615
+2026-07-19 13:47:05,261 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 142}
+2026-07-19 13:47:05,261 - services.settlement_service - INFO - Settlement generated for item 142. Gross: 234.26, Net: 234.26
+2026-07-19 13:47:05,266 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 143}
+2026-07-19 13:47:05,267 - services.settlement_service - INFO - Settlement generated for item 143. Gross: 166.35000000000002, Net: 166.35000000000002
+2026-07-19 13:47:05,274 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 39 | Details: None
+2026-07-19 13:47:05,274 - services.settlement_service - INFO - Settlement 39 marked as Paid by Admin 7
+2026-07-19 13:47:05,280 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 144}
+2026-07-19 13:47:05,280 - services.settlement_service - INFO - Settlement generated for item 144. Gross: 382.78, Net: 363.64099999999996
+2026-07-19 13:47:05,286 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 145}
+2026-07-19 13:47:05,286 - services.settlement_service - INFO - Settlement generated for item 145. Gross: 84.86, Net: 80.617
+2026-07-19 13:47:05,292 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 41 | Details: None
+2026-07-19 13:47:05,293 - services.settlement_service - INFO - Settlement 41 marked as Paid by Admin 7
+2026-07-19 13:47:05,298 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 146}
+2026-07-19 13:47:05,299 - services.settlement_service - INFO - Settlement generated for item 146. Gross: 285.01, Net: 285.01
+2026-07-19 13:47:05,306 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 42 | Details: None
+2026-07-19 13:47:05,306 - services.settlement_service - INFO - Settlement 42 marked as Paid by Admin 7
+2026-07-19 13:47:05,312 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 147}
+2026-07-19 13:47:05,313 - services.settlement_service - INFO - Settlement generated for item 147. Gross: 146.16, Net: 146.16
+2026-07-19 13:47:05,320 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 43 | Details: None
+2026-07-19 13:47:05,320 - services.settlement_service - INFO - Settlement 43 marked as Paid by Admin 7
+2026-07-19 13:47:05,326 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 148}
+2026-07-19 13:47:05,326 - services.settlement_service - INFO - Settlement generated for item 148. Gross: 412.68, Net: 392.046
+2026-07-19 13:47:05,332 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 44 | Details: None
+2026-07-19 13:47:05,333 - services.settlement_service - INFO - Settlement 44 marked as Paid by Admin 7
+2026-07-19 13:47:05,340 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 158}
+2026-07-19 13:47:05,340 - services.settlement_service - INFO - Settlement generated for item 158. Gross: 351.39, Net: 351.39
+2026-07-19 13:47:05,346 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 162}
+2026-07-19 13:47:05,346 - services.settlement_service - INFO - Settlement generated for item 162. Gross: 234.26, Net: 234.26
+2026-07-19 13:47:05,354 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 46 | Details: None
+2026-07-19 13:47:05,354 - services.settlement_service - INFO - Settlement 46 marked as Paid by Admin 7
+2026-07-19 13:47:05,360 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 163}
+2026-07-19 13:47:05,360 - services.settlement_service - INFO - Settlement generated for item 163. Gross: 616.94, Net: 586.0930000000001
+2026-07-19 13:47:05,367 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 47 | Details: None
+2026-07-19 13:47:05,367 - services.settlement_service - INFO - Settlement 47 marked as Paid by Admin 7
+2026-07-19 13:47:05,373 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 173}
+2026-07-19 13:47:05,373 - services.settlement_service - INFO - Settlement generated for item 173. Gross: 236.04, Net: 236.04
+2026-07-19 13:47:05,378 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 48 | Details: None
+2026-07-19 13:47:05,379 - services.settlement_service - INFO - Settlement 48 marked as Paid by Admin 7
+2026-07-19 13:47:05,385 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 174}
+2026-07-19 13:47:05,385 - services.settlement_service - INFO - Settlement generated for item 174. Gross: 616.94, Net: 586.0930000000001
+2026-07-19 13:47:05,392 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 49 | Details: None
+2026-07-19 13:47:05,392 - services.settlement_service - INFO - Settlement 49 marked as Paid by Admin 7
+2026-07-19 13:47:05,398 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 175}
+2026-07-19 13:47:05,398 - services.settlement_service - INFO - Settlement generated for item 175. Gross: 142.32, Net: 142.32
+2026-07-19 13:47:05,405 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 50 | Details: None
+2026-07-19 13:47:05,406 - services.settlement_service - INFO - Settlement 50 marked as Paid by Admin 7
+2026-07-19 13:47:05,411 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 177}
+2026-07-19 13:47:05,411 - services.settlement_service - INFO - Settlement generated for item 177. Gross: 307.32, Net: 291.954
+2026-07-19 13:47:05,417 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 51 | Details: None
+2026-07-19 13:47:05,417 - services.settlement_service - INFO - Settlement 51 marked as Paid by Admin 7
+2026-07-19 13:47:05,424 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 178}
+2026-07-19 13:47:05,424 - services.settlement_service - INFO - Settlement generated for item 178. Gross: 270.21, Net: 256.6995
+2026-07-19 13:47:05,430 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 183}
+2026-07-19 13:47:05,430 - services.settlement_service - INFO - Settlement generated for item 183. Gross: 388.8, Net: 369.36
+2026-07-19 13:47:05,439 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 184}
+2026-07-19 13:47:05,439 - services.settlement_service - INFO - Settlement generated for item 184. Gross: 354.06, Net: 354.06
+2026-07-19 13:47:05,447 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 185}
+2026-07-19 13:47:05,447 - services.settlement_service - INFO - Settlement generated for item 185. Gross: 855.03, Net: 855.03
+2026-07-19 13:47:05,454 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 55 | Details: None
+2026-07-19 13:47:05,454 - services.settlement_service - INFO - Settlement 55 marked as Paid by Admin 7
+2026-07-19 13:47:05,459 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 186}
+2026-07-19 13:47:05,459 - services.settlement_service - INFO - Settlement generated for item 186. Gross: 90.07, Net: 85.56649999999999
+2026-07-19 13:47:05,465 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 189}
+2026-07-19 13:47:05,465 - services.settlement_service - INFO - Settlement generated for item 189. Gross: 117.61, Net: 111.7295
+2026-07-19 13:47:05,472 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 190}
+2026-07-19 13:47:05,472 - services.settlement_service - INFO - Settlement generated for item 190. Gross: 898.02, Net: 898.02
+2026-07-19 13:47:05,477 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 58 | Details: None
+2026-07-19 13:47:05,478 - services.settlement_service - INFO - Settlement 58 marked as Paid by Admin 7
+2026-07-19 13:47:05,483 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 199}
+2026-07-19 13:47:05,483 - services.settlement_service - INFO - Settlement generated for item 199. Gross: 142.32, Net: 142.32
+2026-07-19 13:47:05,489 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 200}
+2026-07-19 13:47:05,490 - services.settlement_service - INFO - Settlement generated for item 200. Gross: 392.52, Net: 372.894
+2026-07-19 13:47:05,495 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 201}
+2026-07-19 13:47:05,495 - services.settlement_service - INFO - Settlement generated for item 201. Gross: 305.83, Net: 305.83
+2026-07-19 13:47:05,502 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 61 | Details: None
+2026-07-19 13:47:05,502 - services.settlement_service - INFO - Settlement 61 marked as Paid by Admin 7
+2026-07-19 13:47:05,508 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 204}
+2026-07-19 13:47:05,508 - services.settlement_service - INFO - Settlement generated for item 204. Gross: 925.4100000000001, Net: 879.1395000000001
+2026-07-19 13:47:05,514 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 62 | Details: None
+2026-07-19 13:47:05,514 - services.settlement_service - INFO - Settlement 62 marked as Paid by Admin 7
+2026-07-19 13:47:05,520 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 205}
+2026-07-19 13:47:05,521 - services.settlement_service - INFO - Settlement generated for item 205. Gross: 71.16, Net: 71.16
+2026-07-19 13:47:05,527 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 63 | Details: None
+2026-07-19 13:47:05,527 - services.settlement_service - INFO - Settlement 63 marked as Paid by Admin 7
+2026-07-19 13:47:05,532 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 206}
+2026-07-19 13:47:05,532 - services.settlement_service - INFO - Settlement generated for item 206. Gross: 166.35000000000002, Net: 166.35000000000002
+2026-07-19 13:47:05,538 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 64 | Details: None
+2026-07-19 13:47:05,539 - services.settlement_service - INFO - Settlement 64 marked as Paid by Admin 7
+2026-07-19 13:47:05,544 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 207}
+2026-07-19 13:47:05,545 - services.settlement_service - INFO - Settlement generated for item 207. Gross: 855.03, Net: 855.03
+2026-07-19 13:47:05,550 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 65 | Details: None
+2026-07-19 13:47:05,550 - services.settlement_service - INFO - Settlement 65 marked as Paid by Admin 7
+2026-07-19 13:57:44,463 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 217}
+2026-07-19 13:57:44,463 - services.settlement_service - INFO - Settlement generated for item 217. Gross: 878.6999999999999, Net: 799.617
+2026-07-19 13:57:44,469 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 219}
+2026-07-19 13:57:44,470 - services.settlement_service - INFO - Settlement generated for item 219. Gross: 234.26, Net: 222.547
+2026-07-19 13:57:44,477 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 67 | Details: None
+2026-07-19 13:57:44,478 - services.settlement_service - INFO - Settlement 67 marked as Paid by Admin 20
+2026-07-19 13:57:44,485 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 222}
+2026-07-19 13:57:44,485 - services.settlement_service - INFO - Settlement generated for item 222. Gross: 292.9, Net: 266.539
+2026-07-19 13:57:44,492 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 223}
+2026-07-19 13:57:44,492 - services.settlement_service - INFO - Settlement generated for item 223. Gross: 191.39, Net: 174.1649
+2026-07-19 13:57:44,499 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 228}
+2026-07-19 13:57:44,499 - services.settlement_service - INFO - Settlement generated for item 228. Gross: 412.68, Net: 375.53880000000004
+2026-07-19 13:57:44,507 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 229}
+2026-07-19 13:57:44,507 - services.settlement_service - INFO - Settlement generated for item 229. Gross: 308.47, Net: 280.70770000000005
+2026-07-19 13:57:44,516 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 71 | Details: None
+2026-07-19 13:57:44,516 - services.settlement_service - INFO - Settlement 71 marked as Paid by Admin 20
+2026-07-19 13:57:44,523 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 230}
+2026-07-19 13:57:44,523 - services.settlement_service - INFO - Settlement generated for item 230. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 13:57:44,530 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 245}
+2026-07-19 13:57:44,530 - services.settlement_service - INFO - Settlement generated for item 245. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 13:57:44,537 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 73 | Details: None
+2026-07-19 13:57:44,537 - services.settlement_service - INFO - Settlement 73 marked as Paid by Admin 20
+2026-07-19 13:57:44,544 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 246}
+2026-07-19 13:57:44,544 - services.settlement_service - INFO - Settlement generated for item 246. Gross: 1238.04, Net: 1126.6163999999999
+2026-07-19 13:57:44,551 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 247}
+2026-07-19 13:57:44,552 - services.settlement_service - INFO - Settlement generated for item 247. Gross: 898.02, Net: 853.119
+2026-07-19 13:57:44,559 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 75 | Details: None
+2026-07-19 13:57:44,559 - services.settlement_service - INFO - Settlement 75 marked as Paid by Admin 20
+2026-07-19 13:57:44,566 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 257}
+2026-07-19 13:57:44,566 - services.settlement_service - INFO - Settlement generated for item 257. Gross: 917.49, Net: 871.6155
+2026-07-19 13:57:44,575 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 76 | Details: None
+2026-07-19 13:57:44,576 - services.settlement_service - INFO - Settlement 76 marked as Paid by Admin 20
+2026-07-19 13:57:44,583 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 258}
+2026-07-19 13:57:44,583 - services.settlement_service - INFO - Settlement generated for item 258. Gross: 90.07, Net: 81.96369999999999
+2026-07-19 13:57:44,591 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 259}
+2026-07-19 13:57:44,591 - services.settlement_service - INFO - Settlement generated for item 259. Gross: 925.4100000000001, Net: 842.1231
+2026-07-19 13:57:44,599 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 78 | Details: None
+2026-07-19 13:57:44,599 - services.settlement_service - INFO - Settlement 78 marked as Paid by Admin 20
+2026-07-19 13:57:44,606 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 263}
+2026-07-19 13:57:44,606 - services.settlement_service - INFO - Settlement generated for item 263. Gross: 55.45, Net: 52.6775
+2026-07-19 13:57:44,613 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 270}
+2026-07-19 13:57:44,614 - services.settlement_service - INFO - Settlement generated for item 270. Gross: 307.32, Net: 279.6612
+2026-07-19 13:57:44,620 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 271}
+2026-07-19 13:57:44,621 - services.settlement_service - INFO - Settlement generated for item 271. Gross: 917.49, Net: 871.6155
+2026-07-19 13:57:44,628 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 81 | Details: None
+2026-07-19 13:57:44,628 - services.settlement_service - INFO - Settlement 81 marked as Paid by Admin 20
+2026-07-19 13:57:44,634 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 285}
+2026-07-19 13:57:44,635 - services.settlement_service - INFO - Settlement generated for item 285. Gross: 925.4100000000001, Net: 842.1231
+2026-07-19 13:57:44,641 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 82 | Details: None
+2026-07-19 13:57:44,642 - services.settlement_service - INFO - Settlement 82 marked as Paid by Admin 20
+2026-07-19 13:57:44,647 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 286}
+2026-07-19 13:57:44,648 - services.settlement_service - INFO - Settlement generated for item 286. Gross: 1145.46, Net: 1088.1870000000001
+2026-07-19 13:57:44,654 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 83 | Details: None
+2026-07-19 13:57:44,654 - services.settlement_service - INFO - Settlement 83 marked as Paid by Admin 20
+2026-07-19 13:57:44,661 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 287}
+2026-07-19 13:57:44,661 - services.settlement_service - INFO - Settlement generated for item 287. Gross: 234.26, Net: 222.547
+2026-07-19 13:57:44,667 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 289}
+2026-07-19 13:57:44,667 - services.settlement_service - INFO - Settlement generated for item 289. Gross: 574.17, Net: 522.4947
+2026-07-19 13:57:44,674 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 85 | Details: None
+2026-07-19 13:57:44,674 - services.settlement_service - INFO - Settlement 85 marked as Paid by Admin 20
+2026-07-19 13:57:44,681 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 296}
+2026-07-19 13:57:44,681 - services.settlement_service - INFO - Settlement generated for item 296. Gross: 611.66, Net: 581.077
+2026-07-19 13:57:44,688 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 86 | Details: None
+2026-07-19 13:57:44,688 - services.settlement_service - INFO - Settlement 86 marked as Paid by Admin 20
+2026-07-19 13:57:44,694 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 297}
+2026-07-19 13:57:44,695 - services.settlement_service - INFO - Settlement generated for item 297. Gross: 90.07, Net: 81.96369999999999
+2026-07-19 13:57:44,701 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 87 | Details: None
+2026-07-19 13:57:44,702 - services.settlement_service - INFO - Settlement 87 marked as Paid by Admin 20
+2026-07-19 13:57:44,708 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 298}
+2026-07-19 13:57:44,709 - services.settlement_service - INFO - Settlement generated for item 298. Gross: 925.4100000000001, Net: 842.1231
+2026-07-19 13:57:44,715 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 308}
+2026-07-19 13:57:44,715 - services.settlement_service - INFO - Settlement generated for item 308. Gross: 117.61, Net: 107.0251
+2026-07-19 13:57:44,722 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 89 | Details: None
+2026-07-19 13:57:44,722 - services.settlement_service - INFO - Settlement 89 marked as Paid by Admin 20
+2026-07-19 13:57:44,729 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 309}
+2026-07-19 13:57:44,729 - services.settlement_service - INFO - Settlement generated for item 309. Gross: 78.37, Net: 74.45150000000001
+2026-07-19 13:57:44,735 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 310}
+2026-07-19 13:57:44,735 - services.settlement_service - INFO - Settlement generated for item 310. Gross: 1166.4, Net: 1061.424
+2026-07-19 13:57:44,742 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 91 | Details: None
+2026-07-19 13:57:44,743 - services.settlement_service - INFO - Settlement 91 marked as Paid by Admin 20
+2026-07-19 13:57:44,748 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 316}
+2026-07-19 13:57:44,749 - services.settlement_service - INFO - Settlement generated for item 316. Gross: 381.82, Net: 362.729
+2026-07-19 13:57:44,756 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 92 | Details: None
+2026-07-19 13:57:44,756 - services.settlement_service - INFO - Settlement 92 marked as Paid by Admin 20
+2026-07-19 13:57:44,764 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 317}
+2026-07-19 13:57:44,764 - services.settlement_service - INFO - Settlement generated for item 317. Gross: 855.03, Net: 812.2785
+2026-07-19 13:57:44,770 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 318}
+2026-07-19 13:57:44,771 - services.settlement_service - INFO - Settlement generated for item 318. Gross: 1166.4, Net: 1061.424
+2026-07-19 13:57:44,778 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 94 | Details: None
+2026-07-19 13:57:44,778 - services.settlement_service - INFO - Settlement 94 marked as Paid by Admin 20
+2026-07-19 13:57:44,784 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 319}
+2026-07-19 13:57:44,785 - services.settlement_service - INFO - Settlement generated for item 319. Gross: 438.48, Net: 416.55600000000004
+2026-07-19 13:57:44,792 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 95 | Details: None
+2026-07-19 13:57:44,792 - services.settlement_service - INFO - Settlement 95 marked as Paid by Admin 20
+2026-07-19 13:57:44,799 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 320}
+2026-07-19 13:57:44,800 - services.settlement_service - INFO - Settlement generated for item 320. Gross: 855.03, Net: 812.2785
+2026-07-19 13:57:44,808 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 321}
+2026-07-19 13:57:44,808 - services.settlement_service - INFO - Settlement generated for item 321. Gross: 825.36, Net: 751.0776000000001
+2026-07-19 13:57:44,816 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 322}
+2026-07-19 13:57:44,816 - services.settlement_service - INFO - Settlement generated for item 322. Gross: 299.34, Net: 284.373
+2026-07-19 13:57:44,822 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 325}
+2026-07-19 13:57:44,822 - services.settlement_service - INFO - Settlement generated for item 325. Gross: 917.49, Net: 871.6155
+2026-07-19 13:57:44,829 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 326}
+2026-07-19 13:57:44,829 - services.settlement_service - INFO - Settlement generated for item 326. Gross: 235.22, Net: 214.0502
+2026-07-19 13:57:44,835 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 327}
+2026-07-19 13:57:44,835 - services.settlement_service - INFO - Settlement generated for item 327. Gross: 616.94, Net: 561.4154000000001
+2026-07-19 13:57:44,842 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 101 | Details: None
+2026-07-19 13:57:44,843 - services.settlement_service - INFO - Settlement 101 marked as Paid by Admin 20
+2026-07-19 13:57:44,849 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 328}
+2026-07-19 13:57:44,849 - services.settlement_service - INFO - Settlement generated for item 328. Gross: 574.17, Net: 522.4947
+2026-07-19 13:57:44,855 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 349}
+2026-07-19 13:57:44,855 - services.settlement_service - INFO - Settlement generated for item 349. Gross: 234.26, Net: 222.547
+2026-07-19 13:57:44,863 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 350}
+2026-07-19 13:57:44,864 - services.settlement_service - INFO - Settlement generated for item 350. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 13:57:44,871 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 104 | Details: None
+2026-07-19 13:57:44,871 - services.settlement_service - INFO - Settlement 104 marked as Paid by Admin 20
+2026-07-19 13:57:44,877 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 351}
+2026-07-19 13:57:44,878 - services.settlement_service - INFO - Settlement generated for item 351. Gross: 382.78, Net: 348.3298
+2026-07-19 13:57:44,892 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 352}
+2026-07-19 13:57:44,892 - services.settlement_service - INFO - Settlement generated for item 352. Gross: 84.86, Net: 77.2226
+2026-07-19 13:57:44,900 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 106 | Details: None
+2026-07-19 13:57:44,900 - services.settlement_service - INFO - Settlement 106 marked as Paid by Admin 20
+2026-07-19 13:57:44,907 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 353}
+2026-07-19 13:57:44,907 - services.settlement_service - INFO - Settlement generated for item 353. Gross: 285.01, Net: 270.7595
+2026-07-19 13:57:44,915 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 107 | Details: None
+2026-07-19 13:57:44,915 - services.settlement_service - INFO - Settlement 107 marked as Paid by Admin 20
+2026-07-19 13:57:44,921 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 354}
+2026-07-19 13:57:44,921 - services.settlement_service - INFO - Settlement generated for item 354. Gross: 146.16, Net: 138.852
+2026-07-19 13:57:44,928 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 108 | Details: None
+2026-07-19 13:57:44,928 - services.settlement_service - INFO - Settlement 108 marked as Paid by Admin 20
+2026-07-19 13:57:44,935 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 355}
+2026-07-19 13:57:44,935 - services.settlement_service - INFO - Settlement generated for item 355. Gross: 412.68, Net: 375.53880000000004
+2026-07-19 13:57:44,942 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 109 | Details: None
+2026-07-19 13:57:44,942 - services.settlement_service - INFO - Settlement 109 marked as Paid by Admin 20
+2026-07-19 13:57:44,948 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 365}
+2026-07-19 13:57:44,949 - services.settlement_service - INFO - Settlement generated for item 365. Gross: 351.39, Net: 333.8205
+2026-07-19 13:57:44,955 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 369}
+2026-07-19 13:57:44,955 - services.settlement_service - INFO - Settlement generated for item 369. Gross: 234.26, Net: 222.547
+2026-07-19 13:57:44,962 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 111 | Details: None
+2026-07-19 13:57:44,962 - services.settlement_service - INFO - Settlement 111 marked as Paid by Admin 20
+2026-07-19 13:57:44,968 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 370}
+2026-07-19 13:57:44,969 - services.settlement_service - INFO - Settlement generated for item 370. Gross: 616.94, Net: 561.4154000000001
+2026-07-19 13:57:44,975 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 112 | Details: None
+2026-07-19 13:57:44,976 - services.settlement_service - INFO - Settlement 112 marked as Paid by Admin 20
+2026-07-19 13:57:44,982 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 380}
+2026-07-19 13:57:44,982 - services.settlement_service - INFO - Settlement generated for item 380. Gross: 236.04, Net: 224.238
+2026-07-19 13:57:44,989 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 113 | Details: None
+2026-07-19 13:57:44,989 - services.settlement_service - INFO - Settlement 113 marked as Paid by Admin 20
+2026-07-19 13:57:44,995 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 381}
+2026-07-19 13:57:44,995 - services.settlement_service - INFO - Settlement generated for item 381. Gross: 616.94, Net: 561.4154000000001
+2026-07-19 13:57:45,002 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 114 | Details: None
+2026-07-19 13:57:45,003 - services.settlement_service - INFO - Settlement 114 marked as Paid by Admin 20
+2026-07-19 13:57:45,009 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 382}
+2026-07-19 13:57:45,009 - services.settlement_service - INFO - Settlement generated for item 382. Gross: 142.32, Net: 135.204
+2026-07-19 13:57:45,016 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 115 | Details: None
+2026-07-19 13:57:45,016 - services.settlement_service - INFO - Settlement 115 marked as Paid by Admin 20
+2026-07-19 13:57:45,023 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 384}
+2026-07-19 13:57:45,023 - services.settlement_service - INFO - Settlement generated for item 384. Gross: 307.32, Net: 279.6612
+2026-07-19 13:57:45,030 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 116 | Details: None
+2026-07-19 13:57:45,031 - services.settlement_service - INFO - Settlement 116 marked as Paid by Admin 20
+2026-07-19 13:57:45,037 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 385}
+2026-07-19 13:57:45,037 - services.settlement_service - INFO - Settlement generated for item 385. Gross: 270.21, Net: 245.8911
+2026-07-19 13:57:45,044 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 390}
+2026-07-19 13:57:45,044 - services.settlement_service - INFO - Settlement generated for item 390. Gross: 388.8, Net: 353.808
+2026-07-19 13:57:45,051 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 391}
+2026-07-19 13:57:45,052 - services.settlement_service - INFO - Settlement generated for item 391. Gross: 354.06, Net: 336.357
+2026-07-19 13:57:45,058 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 392}
+2026-07-19 13:57:45,059 - services.settlement_service - INFO - Settlement generated for item 392. Gross: 855.03, Net: 812.2785
+2026-07-19 13:57:45,065 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 120 | Details: None
+2026-07-19 13:57:45,066 - services.settlement_service - INFO - Settlement 120 marked as Paid by Admin 20
+2026-07-19 13:57:45,072 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 393}
+2026-07-19 13:57:45,072 - services.settlement_service - INFO - Settlement generated for item 393. Gross: 90.07, Net: 81.96369999999999
+2026-07-19 13:57:45,078 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 396}
+2026-07-19 13:57:45,078 - services.settlement_service - INFO - Settlement generated for item 396. Gross: 117.61, Net: 107.0251
+2026-07-19 13:57:45,085 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 397}
+2026-07-19 13:57:45,085 - services.settlement_service - INFO - Settlement generated for item 397. Gross: 898.02, Net: 853.119
+2026-07-19 13:57:45,092 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 123 | Details: None
+2026-07-19 13:57:45,092 - services.settlement_service - INFO - Settlement 123 marked as Paid by Admin 20
+2026-07-19 13:57:45,098 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 406}
+2026-07-19 13:57:45,099 - services.settlement_service - INFO - Settlement generated for item 406. Gross: 142.32, Net: 135.204
+2026-07-19 13:57:45,105 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 407}
+2026-07-19 13:57:45,105 - services.settlement_service - INFO - Settlement generated for item 407. Gross: 392.52, Net: 357.1932
+2026-07-19 13:57:45,112 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 408}
+2026-07-19 13:57:45,112 - services.settlement_service - INFO - Settlement generated for item 408. Gross: 305.83, Net: 290.5385
+2026-07-19 13:57:45,119 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 126 | Details: None
+2026-07-19 13:57:45,119 - services.settlement_service - INFO - Settlement 126 marked as Paid by Admin 20
+2026-07-19 13:57:45,126 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 411}
+2026-07-19 13:57:45,126 - services.settlement_service - INFO - Settlement generated for item 411. Gross: 925.4100000000001, Net: 842.1231
+2026-07-19 13:57:45,133 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 127 | Details: None
+2026-07-19 13:57:45,133 - services.settlement_service - INFO - Settlement 127 marked as Paid by Admin 20
+2026-07-19 13:57:45,139 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 412}
+2026-07-19 13:57:45,140 - services.settlement_service - INFO - Settlement generated for item 412. Gross: 71.16, Net: 67.602
+2026-07-19 13:57:45,146 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 128 | Details: None
+2026-07-19 13:57:45,147 - services.settlement_service - INFO - Settlement 128 marked as Paid by Admin 20
+2026-07-19 13:57:45,154 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 413}
+2026-07-19 13:57:45,154 - services.settlement_service - INFO - Settlement generated for item 413. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 13:57:45,161 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 129 | Details: None
+2026-07-19 13:57:45,162 - services.settlement_service - INFO - Settlement 129 marked as Paid by Admin 20
+2026-07-19 13:57:45,168 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 414}
+2026-07-19 13:57:45,168 - services.settlement_service - INFO - Settlement generated for item 414. Gross: 855.03, Net: 812.2785
+2026-07-19 13:57:45,175 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 130 | Details: None
+2026-07-19 13:57:45,175 - services.settlement_service - INFO - Settlement 130 marked as Paid by Admin 20
+2026-07-19 14:00:22,987 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 415}
+2026-07-19 14:00:22,987 - services.settlement_service - INFO - Settlement generated for item 415. Gross: 71.16, Net: 67.602
+2026-07-19 14:00:22,993 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 416}
+2026-07-19 14:00:22,993 - services.settlement_service - INFO - Settlement generated for item 416. Gross: 855.03, Net: 812.2785
+2026-07-19 14:00:23,000 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 132 | Details: None
+2026-07-19 14:00:23,000 - services.settlement_service - INFO - Settlement 132 marked as Paid by Admin 33
+2026-07-19 14:00:23,006 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 417}
+2026-07-19 14:00:23,006 - services.settlement_service - INFO - Settlement generated for item 417. Gross: 292.32, Net: 277.704
+2026-07-19 14:00:23,013 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 133 | Details: None
+2026-07-19 14:00:23,014 - services.settlement_service - INFO - Settlement 133 marked as Paid by Admin 33
+2026-07-19 14:00:23,021 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 423}
+2026-07-19 14:00:23,022 - services.settlement_service - INFO - Settlement generated for item 423. Gross: 570.02, Net: 541.519
+2026-07-19 14:00:23,031 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 134 | Details: None
+2026-07-19 14:00:23,031 - services.settlement_service - INFO - Settlement 134 marked as Paid by Admin 33
+2026-07-19 14:00:23,038 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 424}
+2026-07-19 14:00:23,038 - services.settlement_service - INFO - Settlement generated for item 424. Gross: 55.45, Net: 52.6775
+2026-07-19 14:00:23,045 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 425}
+2026-07-19 14:00:23,045 - services.settlement_service - INFO - Settlement generated for item 425. Gross: 354.06, Net: 336.357
+2026-07-19 14:00:23,051 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 136 | Details: None
+2026-07-19 14:00:23,051 - services.settlement_service - INFO - Settlement 136 marked as Paid by Admin 33
+2026-07-19 14:00:23,057 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 426}
+2026-07-19 14:00:23,057 - services.settlement_service - INFO - Settlement generated for item 426. Gross: 292.32, Net: 277.704
+2026-07-19 14:00:23,064 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 137 | Details: None
+2026-07-19 14:00:23,065 - services.settlement_service - INFO - Settlement 137 marked as Paid by Admin 33
+2026-07-19 14:00:23,071 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 427}
+2026-07-19 14:00:23,071 - services.settlement_service - INFO - Settlement generated for item 427. Gross: 305.83, Net: 290.5385
+2026-07-19 14:00:23,077 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 428}
+2026-07-19 14:00:23,078 - services.settlement_service - INFO - Settlement generated for item 428. Gross: 438.48, Net: 416.55600000000004
+2026-07-19 14:00:23,084 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 139 | Details: None
+2026-07-19 14:00:23,084 - services.settlement_service - INFO - Settlement 139 marked as Paid by Admin 33
+2026-07-19 14:00:23,090 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 429}
+2026-07-19 14:00:23,090 - services.settlement_service - INFO - Settlement generated for item 429. Gross: 598.68, Net: 568.746
+2026-07-19 14:00:23,097 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 140 | Details: None
+2026-07-19 14:00:23,097 - services.settlement_service - INFO - Settlement 140 marked as Paid by Admin 33
+2026-07-19 14:00:23,102 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 430}
+2026-07-19 14:00:23,102 - services.settlement_service - INFO - Settlement generated for item 430. Gross: 213.48, Net: 202.80599999999998
+2026-07-19 14:00:23,108 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 141 | Details: None
+2026-07-19 14:00:23,108 - services.settlement_service - INFO - Settlement 141 marked as Paid by Admin 33
+2026-07-19 14:00:23,114 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 431}
+2026-07-19 14:00:23,114 - services.settlement_service - INFO - Settlement generated for item 431. Gross: 236.04, Net: 224.238
+2026-07-19 14:00:23,119 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 432}
+2026-07-19 14:00:23,119 - services.settlement_service - INFO - Settlement generated for item 432. Gross: 381.82, Net: 362.729
+2026-07-19 14:00:23,125 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 143 | Details: None
+2026-07-19 14:00:23,125 - services.settlement_service - INFO - Settlement 143 marked as Paid by Admin 33
+2026-07-19 14:00:23,131 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 433}
+2026-07-19 14:00:23,132 - services.settlement_service - INFO - Settlement generated for item 433. Gross: 898.02, Net: 853.119
+2026-07-19 14:00:23,138 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 144 | Details: None
+2026-07-19 14:00:23,138 - services.settlement_service - INFO - Settlement 144 marked as Paid by Admin 33
+2026-07-19 14:00:23,144 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 441}
+2026-07-19 14:00:23,144 - services.settlement_service - INFO - Settlement generated for item 441. Gross: 381.82, Net: 362.729
+2026-07-19 14:00:23,150 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 145 | Details: None
+2026-07-19 14:00:23,150 - services.settlement_service - INFO - Settlement 145 marked as Paid by Admin 33
+2026-07-19 14:00:23,156 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 442}
+2026-07-19 14:00:23,156 - services.settlement_service - INFO - Settlement generated for item 442. Gross: 55.45, Net: 52.6775
+2026-07-19 14:00:23,162 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 448}
+2026-07-19 14:00:23,163 - services.settlement_service - INFO - Settlement generated for item 448. Gross: 570.02, Net: 541.519
+2026-07-19 14:00:23,169 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 147 | Details: None
+2026-07-19 14:00:23,169 - services.settlement_service - INFO - Settlement 147 marked as Paid by Admin 33
+2026-07-19 14:00:23,174 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 449}
+2026-07-19 14:00:23,174 - services.settlement_service - INFO - Settlement generated for item 449. Gross: 598.68, Net: 568.746
+2026-07-19 14:00:23,182 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 148 | Details: None
+2026-07-19 14:00:23,182 - services.settlement_service - INFO - Settlement 148 marked as Paid by Admin 33
+2026-07-19 14:00:23,188 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 450}
+2026-07-19 14:00:23,188 - services.settlement_service - INFO - Settlement generated for item 450. Gross: 598.68, Net: 568.746
+2026-07-19 14:00:23,194 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 454}
+2026-07-19 14:00:23,194 - services.settlement_service - INFO - Settlement generated for item 454. Gross: 741.74, Net: 704.653
+2026-07-19 14:00:23,200 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 150 | Details: None
+2026-07-19 14:00:23,200 - services.settlement_service - INFO - Settlement 150 marked as Paid by Admin 33
+2026-07-19 14:00:23,206 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 455}
+2026-07-19 14:00:23,206 - services.settlement_service - INFO - Settlement generated for item 455. Gross: 299.34, Net: 284.373
+2026-07-19 14:00:23,212 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 151 | Details: None
+2026-07-19 14:00:23,212 - services.settlement_service - INFO - Settlement 151 marked as Paid by Admin 33
+2026-07-19 14:00:23,218 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 456}
+2026-07-19 14:00:23,218 - services.settlement_service - INFO - Settlement generated for item 456. Gross: 570.02, Net: 541.519
+2026-07-19 14:00:23,223 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 152 | Details: None
+2026-07-19 14:00:23,224 - services.settlement_service - INFO - Settlement 152 marked as Paid by Admin 33
+2026-07-19 14:00:23,230 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 464}
+2026-07-19 14:00:23,230 - services.settlement_service - INFO - Settlement generated for item 464. Gross: 855.03, Net: 812.2785
+2026-07-19 14:00:23,236 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 153 | Details: None
+2026-07-19 14:00:23,237 - services.settlement_service - INFO - Settlement 153 marked as Paid by Admin 33
+2026-07-19 14:00:23,242 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 465}
+2026-07-19 14:00:23,242 - services.settlement_service - INFO - Settlement generated for item 465. Gross: 1112.6100000000001, Net: 1056.9795000000001
+2026-07-19 14:00:23,249 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 154 | Details: None
+2026-07-19 14:00:23,249 - services.settlement_service - INFO - Settlement 154 marked as Paid by Admin 33
+2026-07-19 14:00:23,254 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 466}
+2026-07-19 14:00:23,255 - services.settlement_service - INFO - Settlement generated for item 466. Gross: 598.68, Net: 568.746
+2026-07-19 14:00:23,261 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 155 | Details: None
+2026-07-19 14:00:23,261 - services.settlement_service - INFO - Settlement 155 marked as Paid by Admin 33
+2026-07-19 14:00:23,268 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 470}
+2026-07-19 14:00:23,268 - services.settlement_service - INFO - Settlement generated for item 470. Gross: 381.82, Net: 362.729
+2026-07-19 14:00:23,274 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 156 | Details: None
+2026-07-19 14:00:23,274 - services.settlement_service - INFO - Settlement 156 marked as Paid by Admin 33
+2026-07-19 14:00:23,282 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 471}
+2026-07-19 14:00:23,282 - services.settlement_service - INFO - Settlement generated for item 471. Gross: 611.66, Net: 581.077
+2026-07-19 14:00:23,289 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 157 | Details: None
+2026-07-19 14:00:23,289 - services.settlement_service - INFO - Settlement 157 marked as Paid by Admin 33
+2026-07-19 14:00:23,295 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 472}
+2026-07-19 14:00:23,295 - services.settlement_service - INFO - Settlement generated for item 472. Gross: 370.87, Net: 352.3265
+2026-07-19 14:00:23,303 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 158 | Details: None
+2026-07-19 14:00:23,303 - services.settlement_service - INFO - Settlement 158 marked as Paid by Admin 33
+2026-07-19 14:00:23,309 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 473}
+2026-07-19 14:00:23,309 - services.settlement_service - INFO - Settlement generated for item 473. Gross: 118.02, Net: 112.119
+2026-07-19 14:00:23,315 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 479}
+2026-07-19 14:00:23,315 - services.settlement_service - INFO - Settlement generated for item 479. Gross: 285.01, Net: 270.7595
+2026-07-19 14:00:23,321 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 160 | Details: None
+2026-07-19 14:00:23,321 - services.settlement_service - INFO - Settlement 160 marked as Paid by Admin 33
+2026-07-19 14:00:23,328 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 486}
+2026-07-19 14:00:23,328 - services.settlement_service - INFO - Settlement generated for item 486. Gross: 763.64, Net: 725.458
+2026-07-19 14:00:23,334 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 161 | Details: None
+2026-07-19 14:00:23,334 - services.settlement_service - INFO - Settlement 161 marked as Paid by Admin 33
+2026-07-19 14:00:23,339 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 487}
+2026-07-19 14:00:23,340 - services.settlement_service - INFO - Settlement generated for item 487. Gross: 354.06, Net: 336.357
+2026-07-19 14:00:23,347 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 162 | Details: None
+2026-07-19 14:00:23,347 - services.settlement_service - INFO - Settlement 162 marked as Paid by Admin 33
+2026-07-19 14:00:23,353 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 494}
+2026-07-19 14:00:23,353 - services.settlement_service - INFO - Settlement generated for item 494. Gross: 611.66, Net: 581.077
+2026-07-19 14:00:23,359 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 495}
+2026-07-19 14:00:23,360 - services.settlement_service - INFO - Settlement generated for item 495. Gross: 236.04, Net: 224.238
+2026-07-19 14:00:23,366 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 499}
+2026-07-19 14:00:23,366 - services.settlement_service - INFO - Settlement generated for item 499. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 14:00:23,372 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 165 | Details: None
+2026-07-19 14:00:23,373 - services.settlement_service - INFO - Settlement 165 marked as Paid by Admin 33
+2026-07-19 14:00:23,379 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 500}
+2026-07-19 14:00:23,379 - services.settlement_service - INFO - Settlement generated for item 500. Gross: 142.32, Net: 135.204
+2026-07-19 14:00:23,385 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 513}
+2026-07-19 14:00:23,385 - services.settlement_service - INFO - Settlement generated for item 513. Gross: 110.9, Net: 105.355
+2026-07-19 14:00:23,390 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 514}
+2026-07-19 14:00:23,391 - services.settlement_service - INFO - Settlement generated for item 514. Gross: 285.01, Net: 270.7595
+2026-07-19 14:00:23,397 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 168 | Details: None
+2026-07-19 14:00:23,398 - services.settlement_service - INFO - Settlement 168 marked as Paid by Admin 33
+2026-07-19 14:00:23,403 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 515}
+2026-07-19 14:00:23,403 - services.settlement_service - INFO - Settlement generated for item 515. Gross: 236.04, Net: 224.238
+2026-07-19 14:00:23,409 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 169 | Details: None
+2026-07-19 14:00:23,409 - services.settlement_service - INFO - Settlement 169 marked as Paid by Admin 33
+2026-07-19 14:00:23,416 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 519}
+2026-07-19 14:00:23,417 - services.settlement_service - INFO - Settlement generated for item 519. Gross: 142.32, Net: 135.204
+2026-07-19 14:00:23,423 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 170 | Details: None
+2026-07-19 14:00:23,423 - services.settlement_service - INFO - Settlement 170 marked as Paid by Admin 33
+2026-07-19 14:00:23,430 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 520}
+2026-07-19 14:00:23,430 - services.settlement_service - INFO - Settlement generated for item 520. Gross: 611.66, Net: 581.077
+2026-07-19 14:00:23,437 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 171 | Details: None
+2026-07-19 14:00:23,437 - services.settlement_service - INFO - Settlement 171 marked as Paid by Admin 33
+2026-07-19 14:00:23,442 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 521}
+2026-07-19 14:00:23,443 - services.settlement_service - INFO - Settlement generated for item 521. Gross: 71.16, Net: 67.602
+2026-07-19 14:00:23,449 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 172 | Details: None
+2026-07-19 14:00:23,449 - services.settlement_service - INFO - Settlement 172 marked as Paid by Admin 33
+2026-07-19 14:00:23,454 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 527}
+2026-07-19 14:00:23,455 - services.settlement_service - INFO - Settlement generated for item 527. Gross: 370.87, Net: 352.3265
+2026-07-19 14:00:23,462 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 528}
+2026-07-19 14:00:23,462 - services.settlement_service - INFO - Settlement generated for item 528. Gross: 917.49, Net: 871.6155
+2026-07-19 14:00:23,468 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 174 | Details: None
+2026-07-19 14:00:23,469 - services.settlement_service - INFO - Settlement 174 marked as Paid by Admin 33
+2026-07-19 14:00:23,474 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 529}
+2026-07-19 14:00:23,475 - services.settlement_service - INFO - Settlement generated for item 529. Gross: 855.03, Net: 812.2785
+2026-07-19 14:00:23,482 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 175 | Details: None
+2026-07-19 14:00:23,482 - services.settlement_service - INFO - Settlement 175 marked as Paid by Admin 33
+2026-07-19 14:00:23,488 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 531}
+2026-07-19 14:00:23,488 - services.settlement_service - INFO - Settlement generated for item 531. Gross: 598.68, Net: 568.746
+2026-07-19 14:00:23,494 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 176 | Details: None
+2026-07-19 14:00:23,495 - services.settlement_service - INFO - Settlement 176 marked as Paid by Admin 33
+2026-07-19 14:00:23,501 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 532}
+2026-07-19 14:00:23,501 - services.settlement_service - INFO - Settlement generated for item 532. Gross: 351.39, Net: 333.8205
+2026-07-19 14:00:23,507 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 177 | Details: None
+2026-07-19 14:00:23,507 - services.settlement_service - INFO - Settlement 177 marked as Paid by Admin 33
+2026-07-19 14:00:23,513 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 533}
+2026-07-19 14:00:23,513 - services.settlement_service - INFO - Settlement generated for item 533. Gross: 354.06, Net: 336.357
+2026-07-19 14:00:23,521 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 540}
+2026-07-19 14:00:23,521 - services.settlement_service - INFO - Settlement generated for item 540. Gross: 354.06, Net: 336.357
+2026-07-19 14:00:23,527 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 541}
+2026-07-19 14:00:23,527 - services.settlement_service - INFO - Settlement generated for item 541. Gross: 611.66, Net: 581.077
+2026-07-19 14:00:23,534 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 180 | Details: None
+2026-07-19 14:00:23,534 - services.settlement_service - INFO - Settlement 180 marked as Paid by Admin 33
+2026-07-19 14:00:23,540 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 542}
+2026-07-19 14:00:23,540 - services.settlement_service - INFO - Settlement generated for item 542. Gross: 110.9, Net: 105.355
+2026-07-19 14:00:23,549 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 543}
+2026-07-19 14:00:23,549 - services.settlement_service - INFO - Settlement generated for item 543. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 14:00:23,555 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 182 | Details: None
+2026-07-19 14:00:23,556 - services.settlement_service - INFO - Settlement 182 marked as Paid by Admin 33
+2026-07-19 14:00:23,562 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 563}
+2026-07-19 14:00:23,562 - services.settlement_service - INFO - Settlement generated for item 563. Gross: 611.66, Net: 581.077
+2026-07-19 14:00:23,569 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 183 | Details: None
+2026-07-19 14:00:23,569 - services.settlement_service - INFO - Settlement 183 marked as Paid by Admin 33
+2026-07-19 14:00:23,574 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 567}
+2026-07-19 14:00:23,574 - services.settlement_service - INFO - Settlement generated for item 567. Gross: 354.06, Net: 336.357
+2026-07-19 14:00:23,581 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 184 | Details: None
+2026-07-19 14:00:23,582 - services.settlement_service - INFO - Settlement 184 marked as Paid by Admin 33
+2026-07-19 14:00:23,587 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 568}
+2026-07-19 14:00:23,587 - services.settlement_service - INFO - Settlement generated for item 568. Gross: 741.74, Net: 704.653
+2026-07-19 14:00:23,593 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 185 | Details: None
+2026-07-19 14:00:23,594 - services.settlement_service - INFO - Settlement 185 marked as Paid by Admin 33
+2026-07-19 14:00:23,599 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 569}
+2026-07-19 14:00:23,600 - services.settlement_service - INFO - Settlement generated for item 569. Gross: 213.48, Net: 202.80599999999998
+2026-07-19 14:00:23,605 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 186 | Details: None
+2026-07-19 14:00:23,606 - services.settlement_service - INFO - Settlement 186 marked as Paid by Admin 33
+2026-07-19 14:00:23,612 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 570}
+2026-07-19 14:00:23,612 - services.settlement_service - INFO - Settlement generated for item 570. Gross: 285.01, Net: 270.7595
+2026-07-19 14:00:23,619 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 187 | Details: None
+2026-07-19 14:00:23,619 - services.settlement_service - INFO - Settlement 187 marked as Paid by Admin 33
+2026-07-19 14:00:23,625 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 571}
+2026-07-19 14:00:23,626 - services.settlement_service - INFO - Settlement generated for item 571. Gross: 292.32, Net: 277.704
+2026-07-19 14:00:23,632 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 574}
+2026-07-19 14:00:23,632 - services.settlement_service - INFO - Settlement generated for item 574. Gross: 611.66, Net: 581.077
+2026-07-19 14:00:23,638 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 189 | Details: None
+2026-07-19 14:00:23,638 - services.settlement_service - INFO - Settlement 189 marked as Paid by Admin 33
+2026-07-19 14:00:23,644 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 575}
+2026-07-19 14:00:23,645 - services.settlement_service - INFO - Settlement generated for item 575. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 14:00:23,650 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 576}
+2026-07-19 14:00:23,650 - services.settlement_service - INFO - Settlement generated for item 576. Gross: 142.32, Net: 135.204
+2026-07-19 14:00:23,656 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 191 | Details: None
+2026-07-19 14:00:23,656 - services.settlement_service - INFO - Settlement 191 marked as Paid by Admin 33
+2026-07-19 14:00:23,663 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 582}
+2026-07-19 14:00:23,663 - services.settlement_service - INFO - Settlement generated for item 582. Gross: 292.32, Net: 277.704
+2026-07-19 14:00:23,669 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 192 | Details: None
+2026-07-19 14:00:23,669 - services.settlement_service - INFO - Settlement 192 marked as Paid by Admin 33
+2026-07-19 14:00:23,674 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 583}
+2026-07-19 14:00:23,675 - services.settlement_service - INFO - Settlement generated for item 583. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 14:00:23,681 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 193 | Details: None
+2026-07-19 14:00:23,681 - services.settlement_service - INFO - Settlement 193 marked as Paid by Admin 33
+2026-07-19 14:00:23,687 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 588}
+2026-07-19 14:00:23,687 - services.settlement_service - INFO - Settlement generated for item 588. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 14:00:23,693 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 194 | Details: None
+2026-07-19 14:00:23,694 - services.settlement_service - INFO - Settlement 194 marked as Paid by Admin 33
+2026-07-19 14:00:23,699 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 589}
+2026-07-19 14:00:23,699 - services.settlement_service - INFO - Settlement generated for item 589. Gross: 299.34, Net: 284.373
+2026-07-19 14:00:23,705 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 195 | Details: None
+2026-07-19 14:00:23,705 - services.settlement_service - INFO - Settlement 195 marked as Paid by Admin 33
+2026-07-19 14:00:23,711 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 594}
+2026-07-19 14:00:23,711 - services.settlement_service - INFO - Settlement generated for item 594. Gross: 234.26, Net: 222.547
+2026-07-19 14:00:23,717 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 196 | Details: None
+2026-07-19 14:00:23,717 - services.settlement_service - INFO - Settlement 196 marked as Paid by Admin 33
+2026-07-19 14:00:23,722 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 595}
+2026-07-19 14:00:23,722 - services.settlement_service - INFO - Settlement generated for item 595. Gross: 299.34, Net: 284.373
+2026-07-19 14:00:23,729 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 197 | Details: None
+2026-07-19 14:00:23,729 - services.settlement_service - INFO - Settlement 197 marked as Paid by Admin 33
+2026-07-19 14:00:23,734 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 596}
+2026-07-19 14:00:23,734 - services.settlement_service - INFO - Settlement generated for item 596. Gross: 236.04, Net: 224.238
+2026-07-19 14:00:23,740 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 601}
+2026-07-19 14:00:23,741 - services.settlement_service - INFO - Settlement generated for item 601. Gross: 146.16, Net: 138.852
+2026-07-19 14:00:23,748 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 602}
+2026-07-19 14:00:23,748 - services.settlement_service - INFO - Settlement generated for item 602. Gross: 351.39, Net: 333.8205
+2026-07-19 14:00:23,753 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 603}
+2026-07-19 14:00:23,753 - services.settlement_service - INFO - Settlement generated for item 603. Gross: 898.02, Net: 853.119
+2026-07-19 14:00:23,759 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 201 | Details: None
+2026-07-19 14:00:23,759 - services.settlement_service - INFO - Settlement 201 marked as Paid by Admin 33
+2026-07-19 14:00:23,766 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 604}
+2026-07-19 14:00:23,766 - services.settlement_service - INFO - Settlement generated for item 604. Gross: 305.83, Net: 290.5385
+2026-07-19 14:00:23,772 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 202 | Details: None
+2026-07-19 14:00:23,772 - services.settlement_service - INFO - Settlement 202 marked as Paid by Admin 33
+2026-07-19 14:00:23,778 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 607}
+2026-07-19 14:00:23,778 - services.settlement_service - INFO - Settlement generated for item 607. Gross: 305.83, Net: 290.5385
+2026-07-19 14:00:23,785 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 203 | Details: None
+2026-07-19 14:00:23,785 - services.settlement_service - INFO - Settlement 203 marked as Paid by Admin 33
+2026-07-19 14:00:23,791 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 608}
+2026-07-19 14:00:23,791 - services.settlement_service - INFO - Settlement generated for item 608. Gross: 1112.6100000000001, Net: 1056.9795000000001
+2026-07-19 14:00:23,797 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 617}
+2026-07-19 14:00:23,798 - services.settlement_service - INFO - Settlement generated for item 617. Gross: 236.04, Net: 224.238
+2026-07-19 14:00:23,803 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 618}
+2026-07-19 14:00:23,803 - services.settlement_service - INFO - Settlement generated for item 618. Gross: 292.32, Net: 277.704
+2026-07-19 14:00:23,810 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 206 | Details: None
+2026-07-19 14:00:23,811 - services.settlement_service - INFO - Settlement 206 marked as Paid by Admin 33
+2026-07-19 14:00:23,817 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 619}
+2026-07-19 14:00:23,817 - services.settlement_service - INFO - Settlement generated for item 619. Gross: 71.16, Net: 67.602
+2026-07-19 14:00:23,823 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 207 | Details: None
+2026-07-19 14:00:23,823 - services.settlement_service - INFO - Settlement 207 marked as Paid by Admin 33
+2026-07-19 14:01:14,552 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 620}
+2026-07-19 14:01:14,553 - services.settlement_service - INFO - Settlement generated for item 620. Gross: 71.16, Net: 67.602
+2026-07-19 14:01:14,559 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 621}
+2026-07-19 14:01:14,560 - services.settlement_service - INFO - Settlement generated for item 621. Gross: 855.03, Net: 812.2785
+2026-07-19 14:01:14,566 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 209 | Details: None
+2026-07-19 14:01:14,566 - services.settlement_service - INFO - Settlement 209 marked as Paid by Admin 45
+2026-07-19 14:01:14,574 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 622}
+2026-07-19 14:01:14,574 - services.settlement_service - INFO - Settlement generated for item 622. Gross: 292.32, Net: 277.704
+2026-07-19 14:01:14,582 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 210 | Details: None
+2026-07-19 14:01:14,583 - services.settlement_service - INFO - Settlement 210 marked as Paid by Admin 45
+2026-07-19 14:01:14,590 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 628}
+2026-07-19 14:01:14,591 - services.settlement_service - INFO - Settlement generated for item 628. Gross: 570.02, Net: 541.519
+2026-07-19 14:01:14,610 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 211 | Details: None
+2026-07-19 14:01:14,610 - services.settlement_service - INFO - Settlement 211 marked as Paid by Admin 45
+2026-07-19 14:01:14,617 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 629}
+2026-07-19 14:01:14,617 - services.settlement_service - INFO - Settlement generated for item 629. Gross: 55.45, Net: 52.6775
+2026-07-19 14:01:14,624 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 630}
+2026-07-19 14:01:14,624 - services.settlement_service - INFO - Settlement generated for item 630. Gross: 354.06, Net: 336.357
+2026-07-19 14:01:14,631 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 213 | Details: None
+2026-07-19 14:01:14,632 - services.settlement_service - INFO - Settlement 213 marked as Paid by Admin 45
+2026-07-19 14:01:14,638 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 631}
+2026-07-19 14:01:14,638 - services.settlement_service - INFO - Settlement generated for item 631. Gross: 292.32, Net: 277.704
+2026-07-19 14:01:14,647 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 214 | Details: None
+2026-07-19 14:01:14,647 - services.settlement_service - INFO - Settlement 214 marked as Paid by Admin 45
+2026-07-19 14:01:14,653 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 632}
+2026-07-19 14:01:14,653 - services.settlement_service - INFO - Settlement generated for item 632. Gross: 305.83, Net: 290.5385
+2026-07-19 14:01:14,661 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 633}
+2026-07-19 14:01:14,661 - services.settlement_service - INFO - Settlement generated for item 633. Gross: 438.48, Net: 416.55600000000004
+2026-07-19 14:01:14,667 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 216 | Details: None
+2026-07-19 14:01:14,667 - services.settlement_service - INFO - Settlement 216 marked as Paid by Admin 45
+2026-07-19 14:01:14,673 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 634}
+2026-07-19 14:01:14,673 - services.settlement_service - INFO - Settlement generated for item 634. Gross: 598.68, Net: 568.746
+2026-07-19 14:01:14,680 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 217 | Details: None
+2026-07-19 14:01:14,680 - services.settlement_service - INFO - Settlement 217 marked as Paid by Admin 45
+2026-07-19 14:01:14,697 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 635}
+2026-07-19 14:01:14,697 - services.settlement_service - INFO - Settlement generated for item 635. Gross: 213.48, Net: 202.80599999999998
+2026-07-19 14:01:14,717 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 218 | Details: None
+2026-07-19 14:01:14,717 - services.settlement_service - INFO - Settlement 218 marked as Paid by Admin 45
+2026-07-19 14:01:14,724 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 636}
+2026-07-19 14:01:14,725 - services.settlement_service - INFO - Settlement generated for item 636. Gross: 236.04, Net: 224.238
+2026-07-19 14:01:14,730 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 637}
+2026-07-19 14:01:14,731 - services.settlement_service - INFO - Settlement generated for item 637. Gross: 381.82, Net: 362.729
+2026-07-19 14:01:14,737 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 220 | Details: None
+2026-07-19 14:01:14,737 - services.settlement_service - INFO - Settlement 220 marked as Paid by Admin 45
+2026-07-19 14:01:14,745 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 638}
+2026-07-19 14:01:14,745 - services.settlement_service - INFO - Settlement generated for item 638. Gross: 898.02, Net: 853.119
+2026-07-19 14:01:14,753 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 221 | Details: None
+2026-07-19 14:01:14,753 - services.settlement_service - INFO - Settlement 221 marked as Paid by Admin 45
+2026-07-19 14:01:14,760 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 646}
+2026-07-19 14:01:14,761 - services.settlement_service - INFO - Settlement generated for item 646. Gross: 381.82, Net: 362.729
+2026-07-19 14:01:14,780 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 222 | Details: None
+2026-07-19 14:01:14,781 - services.settlement_service - INFO - Settlement 222 marked as Paid by Admin 45
+2026-07-19 14:01:14,788 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 647}
+2026-07-19 14:01:14,789 - services.settlement_service - INFO - Settlement generated for item 647. Gross: 55.45, Net: 52.6775
+2026-07-19 14:01:14,796 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 653}
+2026-07-19 14:01:14,796 - services.settlement_service - INFO - Settlement generated for item 653. Gross: 570.02, Net: 541.519
+2026-07-19 14:01:14,803 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 224 | Details: None
+2026-07-19 14:01:14,804 - services.settlement_service - INFO - Settlement 224 marked as Paid by Admin 45
+2026-07-19 14:01:14,810 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 654}
+2026-07-19 14:01:14,811 - services.settlement_service - INFO - Settlement generated for item 654. Gross: 598.68, Net: 568.746
+2026-07-19 14:01:14,818 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 225 | Details: None
+2026-07-19 14:01:14,818 - services.settlement_service - INFO - Settlement 225 marked as Paid by Admin 45
+2026-07-19 14:01:14,825 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 655}
+2026-07-19 14:01:14,826 - services.settlement_service - INFO - Settlement generated for item 655. Gross: 598.68, Net: 568.746
+2026-07-19 14:01:14,832 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 659}
+2026-07-19 14:01:14,832 - services.settlement_service - INFO - Settlement generated for item 659. Gross: 741.74, Net: 704.653
+2026-07-19 14:01:14,851 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 227 | Details: None
+2026-07-19 14:01:14,851 - services.settlement_service - INFO - Settlement 227 marked as Paid by Admin 45
+2026-07-19 14:01:14,859 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 660}
+2026-07-19 14:01:14,859 - services.settlement_service - INFO - Settlement generated for item 660. Gross: 299.34, Net: 284.373
+2026-07-19 14:01:14,867 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 228 | Details: None
+2026-07-19 14:01:14,867 - services.settlement_service - INFO - Settlement 228 marked as Paid by Admin 45
+2026-07-19 14:01:14,874 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 661}
+2026-07-19 14:01:14,874 - services.settlement_service - INFO - Settlement generated for item 661. Gross: 570.02, Net: 541.519
+2026-07-19 14:01:14,881 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 229 | Details: None
+2026-07-19 14:01:14,882 - services.settlement_service - INFO - Settlement 229 marked as Paid by Admin 45
+2026-07-19 14:01:14,889 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 669}
+2026-07-19 14:01:14,889 - services.settlement_service - INFO - Settlement generated for item 669. Gross: 855.03, Net: 812.2785
+2026-07-19 14:01:14,896 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 230 | Details: None
+2026-07-19 14:01:14,896 - services.settlement_service - INFO - Settlement 230 marked as Paid by Admin 45
+2026-07-19 14:01:14,903 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 670}
+2026-07-19 14:01:14,903 - services.settlement_service - INFO - Settlement generated for item 670. Gross: 1112.6100000000001, Net: 1056.9795000000001
+2026-07-19 14:01:14,922 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 231 | Details: None
+2026-07-19 14:01:14,923 - services.settlement_service - INFO - Settlement 231 marked as Paid by Admin 45
+2026-07-19 14:01:14,929 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 671}
+2026-07-19 14:01:14,929 - services.settlement_service - INFO - Settlement generated for item 671. Gross: 598.68, Net: 568.746
+2026-07-19 14:01:14,936 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 232 | Details: None
+2026-07-19 14:01:14,936 - services.settlement_service - INFO - Settlement 232 marked as Paid by Admin 45
+2026-07-19 14:01:14,943 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 675}
+2026-07-19 14:01:14,944 - services.settlement_service - INFO - Settlement generated for item 675. Gross: 381.82, Net: 362.729
+2026-07-19 14:01:14,951 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 233 | Details: None
+2026-07-19 14:01:14,951 - services.settlement_service - INFO - Settlement 233 marked as Paid by Admin 45
+2026-07-19 14:01:14,957 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 676}
+2026-07-19 14:01:14,958 - services.settlement_service - INFO - Settlement generated for item 676. Gross: 611.66, Net: 581.077
+2026-07-19 14:01:14,964 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 234 | Details: None
+2026-07-19 14:01:14,965 - services.settlement_service - INFO - Settlement 234 marked as Paid by Admin 45
+2026-07-19 14:01:14,983 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 677}
+2026-07-19 14:01:14,983 - services.settlement_service - INFO - Settlement generated for item 677. Gross: 370.87, Net: 352.3265
+2026-07-19 14:01:14,990 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 235 | Details: None
+2026-07-19 14:01:14,990 - services.settlement_service - INFO - Settlement 235 marked as Paid by Admin 45
+2026-07-19 14:01:14,996 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 678}
+2026-07-19 14:01:14,997 - services.settlement_service - INFO - Settlement generated for item 678. Gross: 118.02, Net: 112.119
+2026-07-19 14:01:15,003 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 684}
+2026-07-19 14:01:15,003 - services.settlement_service - INFO - Settlement generated for item 684. Gross: 285.01, Net: 270.7595
+2026-07-19 14:01:15,011 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 237 | Details: None
+2026-07-19 14:01:15,011 - services.settlement_service - INFO - Settlement 237 marked as Paid by Admin 45
+2026-07-19 14:01:15,017 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 691}
+2026-07-19 14:01:15,017 - services.settlement_service - INFO - Settlement generated for item 691. Gross: 763.64, Net: 725.458
+2026-07-19 14:01:15,024 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 238 | Details: None
+2026-07-19 14:01:15,025 - services.settlement_service - INFO - Settlement 238 marked as Paid by Admin 45
+2026-07-19 14:01:15,031 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 692}
+2026-07-19 14:01:15,031 - services.settlement_service - INFO - Settlement generated for item 692. Gross: 354.06, Net: 336.357
+2026-07-19 14:01:15,049 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 239 | Details: None
+2026-07-19 14:01:15,050 - services.settlement_service - INFO - Settlement 239 marked as Paid by Admin 45
+2026-07-19 14:01:15,056 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 699}
+2026-07-19 14:01:15,056 - services.settlement_service - INFO - Settlement generated for item 699. Gross: 611.66, Net: 581.077
+2026-07-19 14:01:15,062 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 700}
+2026-07-19 14:01:15,062 - services.settlement_service - INFO - Settlement generated for item 700. Gross: 236.04, Net: 224.238
+2026-07-19 14:01:15,068 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 704}
+2026-07-19 14:01:15,068 - services.settlement_service - INFO - Settlement generated for item 704. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 14:01:15,075 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 242 | Details: None
+2026-07-19 14:01:15,076 - services.settlement_service - INFO - Settlement 242 marked as Paid by Admin 45
+2026-07-19 14:01:15,082 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 705}
+2026-07-19 14:01:15,082 - services.settlement_service - INFO - Settlement generated for item 705. Gross: 142.32, Net: 135.204
+2026-07-19 14:01:15,100 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 718}
+2026-07-19 14:01:15,100 - services.settlement_service - INFO - Settlement generated for item 718. Gross: 110.9, Net: 105.355
+2026-07-19 14:01:15,106 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 719}
+2026-07-19 14:01:15,107 - services.settlement_service - INFO - Settlement generated for item 719. Gross: 285.01, Net: 270.7595
+2026-07-19 14:01:15,112 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 245 | Details: None
+2026-07-19 14:01:15,112 - services.settlement_service - INFO - Settlement 245 marked as Paid by Admin 45
+2026-07-19 14:01:15,118 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 720}
+2026-07-19 14:01:15,118 - services.settlement_service - INFO - Settlement generated for item 720. Gross: 236.04, Net: 224.238
+2026-07-19 14:01:15,125 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 246 | Details: None
+2026-07-19 14:01:15,125 - services.settlement_service - INFO - Settlement 246 marked as Paid by Admin 45
+2026-07-19 14:01:15,131 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 724}
+2026-07-19 14:01:15,132 - services.settlement_service - INFO - Settlement generated for item 724. Gross: 142.32, Net: 135.204
+2026-07-19 14:01:15,138 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 247 | Details: None
+2026-07-19 14:01:15,139 - services.settlement_service - INFO - Settlement 247 marked as Paid by Admin 45
+2026-07-19 14:01:15,157 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 725}
+2026-07-19 14:01:15,157 - services.settlement_service - INFO - Settlement generated for item 725. Gross: 611.66, Net: 581.077
+2026-07-19 14:01:15,164 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 248 | Details: None
+2026-07-19 14:01:15,165 - services.settlement_service - INFO - Settlement 248 marked as Paid by Admin 45
+2026-07-19 14:01:15,171 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 726}
+2026-07-19 14:01:15,171 - services.settlement_service - INFO - Settlement generated for item 726. Gross: 71.16, Net: 67.602
+2026-07-19 14:01:15,178 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 249 | Details: None
+2026-07-19 14:01:15,178 - services.settlement_service - INFO - Settlement 249 marked as Paid by Admin 45
+2026-07-19 14:01:15,184 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 732}
+2026-07-19 14:01:15,184 - services.settlement_service - INFO - Settlement generated for item 732. Gross: 370.87, Net: 352.3265
+2026-07-19 14:01:15,190 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 733}
+2026-07-19 14:01:15,190 - services.settlement_service - INFO - Settlement generated for item 733. Gross: 917.49, Net: 871.6155
+2026-07-19 14:01:15,198 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 251 | Details: None
+2026-07-19 14:01:15,198 - services.settlement_service - INFO - Settlement 251 marked as Paid by Admin 45
+2026-07-19 14:01:15,222 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 734}
+2026-07-19 14:01:15,222 - services.settlement_service - INFO - Settlement generated for item 734. Gross: 855.03, Net: 812.2785
+2026-07-19 14:01:15,229 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 252 | Details: None
+2026-07-19 14:01:15,229 - services.settlement_service - INFO - Settlement 252 marked as Paid by Admin 45
+2026-07-19 14:01:15,235 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 736}
+2026-07-19 14:01:15,235 - services.settlement_service - INFO - Settlement generated for item 736. Gross: 598.68, Net: 568.746
+2026-07-19 14:01:15,243 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 253 | Details: None
+2026-07-19 14:01:15,243 - services.settlement_service - INFO - Settlement 253 marked as Paid by Admin 45
+2026-07-19 14:01:15,249 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 737}
+2026-07-19 14:01:15,249 - services.settlement_service - INFO - Settlement generated for item 737. Gross: 351.39, Net: 333.8205
+2026-07-19 14:01:15,256 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 254 | Details: None
+2026-07-19 14:01:15,256 - services.settlement_service - INFO - Settlement 254 marked as Paid by Admin 45
+2026-07-19 14:01:15,275 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 738}
+2026-07-19 14:01:15,275 - services.settlement_service - INFO - Settlement generated for item 738. Gross: 354.06, Net: 336.357
+2026-07-19 14:01:15,280 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 745}
+2026-07-19 14:01:15,281 - services.settlement_service - INFO - Settlement generated for item 745. Gross: 354.06, Net: 336.357
+2026-07-19 14:01:15,286 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 746}
+2026-07-19 14:01:15,287 - services.settlement_service - INFO - Settlement generated for item 746. Gross: 611.66, Net: 581.077
+2026-07-19 14:01:15,293 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 257 | Details: None
+2026-07-19 14:01:15,294 - services.settlement_service - INFO - Settlement 257 marked as Paid by Admin 45
+2026-07-19 14:01:15,299 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 747}
+2026-07-19 14:01:15,300 - services.settlement_service - INFO - Settlement generated for item 747. Gross: 110.9, Net: 105.355
+2026-07-19 14:01:15,306 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 748}
+2026-07-19 14:01:15,307 - services.settlement_service - INFO - Settlement generated for item 748. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 14:01:15,313 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 259 | Details: None
+2026-07-19 14:01:15,313 - services.settlement_service - INFO - Settlement 259 marked as Paid by Admin 45
+2026-07-19 14:01:15,332 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 768}
+2026-07-19 14:01:15,332 - services.settlement_service - INFO - Settlement generated for item 768. Gross: 611.66, Net: 581.077
+2026-07-19 14:01:15,339 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 260 | Details: None
+2026-07-19 14:01:15,339 - services.settlement_service - INFO - Settlement 260 marked as Paid by Admin 45
+2026-07-19 14:01:15,345 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 772}
+2026-07-19 14:01:15,346 - services.settlement_service - INFO - Settlement generated for item 772. Gross: 354.06, Net: 336.357
+2026-07-19 14:01:15,352 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 261 | Details: None
+2026-07-19 14:01:15,353 - services.settlement_service - INFO - Settlement 261 marked as Paid by Admin 45
+2026-07-19 14:01:15,359 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 773}
+2026-07-19 14:01:15,360 - services.settlement_service - INFO - Settlement generated for item 773. Gross: 741.74, Net: 704.653
+2026-07-19 14:01:15,367 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 262 | Details: None
+2026-07-19 14:01:15,367 - services.settlement_service - INFO - Settlement 262 marked as Paid by Admin 45
+2026-07-19 14:01:15,374 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 774}
+2026-07-19 14:01:15,375 - services.settlement_service - INFO - Settlement generated for item 774. Gross: 213.48, Net: 202.80599999999998
+2026-07-19 14:01:15,394 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 263 | Details: None
+2026-07-19 14:01:15,394 - services.settlement_service - INFO - Settlement 263 marked as Paid by Admin 45
+2026-07-19 14:01:15,400 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 775}
+2026-07-19 14:01:15,400 - services.settlement_service - INFO - Settlement generated for item 775. Gross: 285.01, Net: 270.7595
+2026-07-19 14:01:15,407 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 264 | Details: None
+2026-07-19 14:01:15,407 - services.settlement_service - INFO - Settlement 264 marked as Paid by Admin 45
+2026-07-19 14:01:15,413 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 776}
+2026-07-19 14:01:15,413 - services.settlement_service - INFO - Settlement generated for item 776. Gross: 292.32, Net: 277.704
+2026-07-19 14:01:15,419 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 779}
+2026-07-19 14:01:15,419 - services.settlement_service - INFO - Settlement generated for item 779. Gross: 611.66, Net: 581.077
+2026-07-19 14:01:15,426 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 266 | Details: None
+2026-07-19 14:01:15,426 - services.settlement_service - INFO - Settlement 266 marked as Paid by Admin 45
+2026-07-19 14:01:15,433 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 780}
+2026-07-19 14:01:15,433 - services.settlement_service - INFO - Settlement generated for item 780. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 14:01:15,439 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 781}
+2026-07-19 14:01:15,439 - services.settlement_service - INFO - Settlement generated for item 781. Gross: 142.32, Net: 135.204
+2026-07-19 14:01:15,458 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 268 | Details: None
+2026-07-19 14:01:15,459 - services.settlement_service - INFO - Settlement 268 marked as Paid by Admin 45
+2026-07-19 14:01:15,465 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 787}
+2026-07-19 14:01:15,465 - services.settlement_service - INFO - Settlement generated for item 787. Gross: 292.32, Net: 277.704
+2026-07-19 14:01:15,472 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 269 | Details: None
+2026-07-19 14:01:15,472 - services.settlement_service - INFO - Settlement 269 marked as Paid by Admin 45
+2026-07-19 14:01:15,478 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 788}
+2026-07-19 14:01:15,478 - services.settlement_service - INFO - Settlement generated for item 788. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 14:01:15,484 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 270 | Details: None
+2026-07-19 14:01:15,484 - services.settlement_service - INFO - Settlement 270 marked as Paid by Admin 45
+2026-07-19 14:01:15,491 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 793}
+2026-07-19 14:01:15,492 - services.settlement_service - INFO - Settlement generated for item 793. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 14:01:15,500 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 271 | Details: None
+2026-07-19 14:01:15,500 - services.settlement_service - INFO - Settlement 271 marked as Paid by Admin 45
+2026-07-19 14:01:15,519 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 794}
+2026-07-19 14:01:15,520 - services.settlement_service - INFO - Settlement generated for item 794. Gross: 299.34, Net: 284.373
+2026-07-19 14:01:15,540 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 272 | Details: None
+2026-07-19 14:01:15,541 - services.settlement_service - INFO - Settlement 272 marked as Paid by Admin 45
+2026-07-19 14:01:15,571 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 799}
+2026-07-19 14:01:15,572 - services.settlement_service - INFO - Settlement generated for item 799. Gross: 234.26, Net: 222.547
+2026-07-19 14:01:15,587 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 273 | Details: None
+2026-07-19 14:01:15,587 - services.settlement_service - INFO - Settlement 273 marked as Paid by Admin 45
+2026-07-19 14:01:15,600 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 800}
+2026-07-19 14:01:15,601 - services.settlement_service - INFO - Settlement generated for item 800. Gross: 299.34, Net: 284.373
+2026-07-19 14:01:15,614 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 274 | Details: None
+2026-07-19 14:01:15,614 - services.settlement_service - INFO - Settlement 274 marked as Paid by Admin 45
+2026-07-19 14:01:15,628 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 801}
+2026-07-19 14:01:15,628 - services.settlement_service - INFO - Settlement generated for item 801. Gross: 236.04, Net: 224.238
+2026-07-19 14:01:15,642 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 806}
+2026-07-19 14:01:15,642 - services.settlement_service - INFO - Settlement generated for item 806. Gross: 146.16, Net: 138.852
+2026-07-19 14:01:15,656 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 807}
+2026-07-19 14:01:15,657 - services.settlement_service - INFO - Settlement generated for item 807. Gross: 351.39, Net: 333.8205
+2026-07-19 14:01:15,672 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 808}
+2026-07-19 14:01:15,672 - services.settlement_service - INFO - Settlement generated for item 808. Gross: 898.02, Net: 853.119
+2026-07-19 14:01:15,687 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 278 | Details: None
+2026-07-19 14:01:15,687 - services.settlement_service - INFO - Settlement 278 marked as Paid by Admin 45
+2026-07-19 14:01:15,702 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 809}
+2026-07-19 14:01:15,702 - services.settlement_service - INFO - Settlement generated for item 809. Gross: 305.83, Net: 290.5385
+2026-07-19 14:01:15,715 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 279 | Details: None
+2026-07-19 14:01:15,716 - services.settlement_service - INFO - Settlement 279 marked as Paid by Admin 45
+2026-07-19 14:01:15,730 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 812}
+2026-07-19 14:01:15,730 - services.settlement_service - INFO - Settlement generated for item 812. Gross: 305.83, Net: 290.5385
+2026-07-19 14:01:15,744 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 280 | Details: None
+2026-07-19 14:01:15,744 - services.settlement_service - INFO - Settlement 280 marked as Paid by Admin 45
+2026-07-19 14:01:15,760 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 813}
+2026-07-19 14:01:15,761 - services.settlement_service - INFO - Settlement generated for item 813. Gross: 1112.6100000000001, Net: 1056.9795000000001
+2026-07-19 14:01:15,777 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 822}
+2026-07-19 14:01:15,778 - services.settlement_service - INFO - Settlement generated for item 822. Gross: 236.04, Net: 224.238
+2026-07-19 14:01:15,793 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 823}
+2026-07-19 14:01:15,794 - services.settlement_service - INFO - Settlement generated for item 823. Gross: 292.32, Net: 277.704
+2026-07-19 14:01:15,811 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 283 | Details: None
+2026-07-19 14:01:15,812 - services.settlement_service - INFO - Settlement 283 marked as Paid by Admin 45
+2026-07-19 14:01:15,830 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 824}
+2026-07-19 14:01:15,830 - services.settlement_service - INFO - Settlement generated for item 824. Gross: 71.16, Net: 67.602
+2026-07-19 14:01:15,848 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 284 | Details: None
+2026-07-19 14:01:15,848 - services.settlement_service - INFO - Settlement 284 marked as Paid by Admin 45
+2026-07-19 14:15:40,733 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 825}
+2026-07-19 14:15:40,733 - services.settlement_service - INFO - Settlement generated for item 825. Gross: 71.16, Net: 67.602
+2026-07-19 14:15:40,739 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 826}
+2026-07-19 14:15:40,740 - services.settlement_service - INFO - Settlement generated for item 826. Gross: 855.03, Net: 812.2785
+2026-07-19 14:15:40,751 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 286 | Details: None
+2026-07-19 14:15:40,752 - services.settlement_service - INFO - Settlement 286 marked as Paid by Admin 57
+2026-07-19 14:15:40,767 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 827}
+2026-07-19 14:15:40,768 - services.settlement_service - INFO - Settlement generated for item 827. Gross: 292.32, Net: 277.704
+2026-07-19 14:15:40,776 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 287 | Details: None
+2026-07-19 14:15:40,777 - services.settlement_service - INFO - Settlement 287 marked as Paid by Admin 57
+2026-07-19 14:15:40,785 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 833}
+2026-07-19 14:15:40,785 - services.settlement_service - INFO - Settlement generated for item 833. Gross: 570.02, Net: 541.519
+2026-07-19 14:15:40,793 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 288 | Details: None
+2026-07-19 14:15:40,794 - services.settlement_service - INFO - Settlement 288 marked as Paid by Admin 57
+2026-07-19 14:15:40,803 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 834}
+2026-07-19 14:15:40,804 - services.settlement_service - INFO - Settlement generated for item 834. Gross: 55.45, Net: 52.6775
+2026-07-19 14:15:40,811 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 835}
+2026-07-19 14:15:40,812 - services.settlement_service - INFO - Settlement generated for item 835. Gross: 354.06, Net: 336.357
+2026-07-19 14:15:40,821 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 290 | Details: None
+2026-07-19 14:15:40,822 - services.settlement_service - INFO - Settlement 290 marked as Paid by Admin 57
+2026-07-19 14:15:40,829 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 836}
+2026-07-19 14:15:40,829 - services.settlement_service - INFO - Settlement generated for item 836. Gross: 292.32, Net: 277.704
+2026-07-19 14:15:40,853 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 291 | Details: None
+2026-07-19 14:15:40,853 - services.settlement_service - INFO - Settlement 291 marked as Paid by Admin 57
+2026-07-19 14:15:40,861 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 837}
+2026-07-19 14:15:40,862 - services.settlement_service - INFO - Settlement generated for item 837. Gross: 305.83, Net: 290.5385
+2026-07-19 14:15:40,871 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 838}
+2026-07-19 14:15:40,871 - services.settlement_service - INFO - Settlement generated for item 838. Gross: 438.48, Net: 416.55600000000004
+2026-07-19 14:15:40,879 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 293 | Details: None
+2026-07-19 14:15:40,879 - services.settlement_service - INFO - Settlement 293 marked as Paid by Admin 57
+2026-07-19 14:15:40,891 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 839}
+2026-07-19 14:15:40,892 - services.settlement_service - INFO - Settlement generated for item 839. Gross: 598.68, Net: 568.746
+2026-07-19 14:15:40,900 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 294 | Details: None
+2026-07-19 14:15:40,901 - services.settlement_service - INFO - Settlement 294 marked as Paid by Admin 57
+2026-07-19 14:15:40,908 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 840}
+2026-07-19 14:15:40,909 - services.settlement_service - INFO - Settlement generated for item 840. Gross: 213.48, Net: 202.80599999999998
+2026-07-19 14:15:40,917 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 295 | Details: None
+2026-07-19 14:15:40,918 - services.settlement_service - INFO - Settlement 295 marked as Paid by Admin 57
+2026-07-19 14:15:40,926 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 841}
+2026-07-19 14:15:40,927 - services.settlement_service - INFO - Settlement generated for item 841. Gross: 236.04, Net: 224.238
+2026-07-19 14:15:40,946 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 842}
+2026-07-19 14:15:40,947 - services.settlement_service - INFO - Settlement generated for item 842. Gross: 381.82, Net: 362.729
+2026-07-19 14:15:40,956 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 297 | Details: None
+2026-07-19 14:15:40,957 - services.settlement_service - INFO - Settlement 297 marked as Paid by Admin 57
+2026-07-19 14:15:40,963 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 843}
+2026-07-19 14:15:40,964 - services.settlement_service - INFO - Settlement generated for item 843. Gross: 898.02, Net: 853.119
+2026-07-19 14:15:40,973 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 298 | Details: None
+2026-07-19 14:15:40,973 - services.settlement_service - INFO - Settlement 298 marked as Paid by Admin 57
+2026-07-19 14:15:40,979 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 851}
+2026-07-19 14:15:40,980 - services.settlement_service - INFO - Settlement generated for item 851. Gross: 381.82, Net: 362.729
+2026-07-19 14:15:40,989 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 299 | Details: None
+2026-07-19 14:15:40,990 - services.settlement_service - INFO - Settlement 299 marked as Paid by Admin 57
+2026-07-19 14:15:40,997 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 852}
+2026-07-19 14:15:40,998 - services.settlement_service - INFO - Settlement generated for item 852. Gross: 55.45, Net: 52.6775
+2026-07-19 14:15:41,006 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 858}
+2026-07-19 14:15:41,007 - services.settlement_service - INFO - Settlement generated for item 858. Gross: 570.02, Net: 541.519
+2026-07-19 14:15:41,015 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 301 | Details: None
+2026-07-19 14:15:41,016 - services.settlement_service - INFO - Settlement 301 marked as Paid by Admin 57
+2026-07-19 14:15:41,037 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 859}
+2026-07-19 14:15:41,038 - services.settlement_service - INFO - Settlement generated for item 859. Gross: 598.68, Net: 568.746
+2026-07-19 14:15:41,050 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 302 | Details: None
+2026-07-19 14:15:41,051 - services.settlement_service - INFO - Settlement 302 marked as Paid by Admin 57
+2026-07-19 14:15:41,058 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 860}
+2026-07-19 14:15:41,059 - services.settlement_service - INFO - Settlement generated for item 860. Gross: 598.68, Net: 568.746
+2026-07-19 14:15:41,067 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 864}
+2026-07-19 14:15:41,068 - services.settlement_service - INFO - Settlement generated for item 864. Gross: 741.74, Net: 704.653
+2026-07-19 14:15:41,075 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 304 | Details: None
+2026-07-19 14:15:41,076 - services.settlement_service - INFO - Settlement 304 marked as Paid by Admin 57
+2026-07-19 14:15:41,085 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 865}
+2026-07-19 14:15:41,085 - services.settlement_service - INFO - Settlement generated for item 865. Gross: 299.34, Net: 284.373
+2026-07-19 14:15:41,093 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 305 | Details: None
+2026-07-19 14:15:41,093 - services.settlement_service - INFO - Settlement 305 marked as Paid by Admin 57
+2026-07-19 14:15:41,102 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 866}
+2026-07-19 14:15:41,103 - services.settlement_service - INFO - Settlement generated for item 866. Gross: 570.02, Net: 541.519
+2026-07-19 14:15:41,110 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 306 | Details: None
+2026-07-19 14:15:41,111 - services.settlement_service - INFO - Settlement 306 marked as Paid by Admin 57
+2026-07-19 14:15:41,129 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 874}
+2026-07-19 14:15:41,129 - services.settlement_service - INFO - Settlement generated for item 874. Gross: 855.03, Net: 812.2785
+2026-07-19 14:15:41,138 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 307 | Details: None
+2026-07-19 14:15:41,139 - services.settlement_service - INFO - Settlement 307 marked as Paid by Admin 57
+2026-07-19 14:15:41,146 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 875}
+2026-07-19 14:15:41,147 - services.settlement_service - INFO - Settlement generated for item 875. Gross: 1112.6100000000001, Net: 1056.9795000000001
+2026-07-19 14:15:41,154 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 308 | Details: None
+2026-07-19 14:15:41,154 - services.settlement_service - INFO - Settlement 308 marked as Paid by Admin 57
+2026-07-19 14:15:41,162 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 876}
+2026-07-19 14:15:41,162 - services.settlement_service - INFO - Settlement generated for item 876. Gross: 598.68, Net: 568.746
+2026-07-19 14:15:41,170 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 309 | Details: None
+2026-07-19 14:15:41,171 - services.settlement_service - INFO - Settlement 309 marked as Paid by Admin 57
+2026-07-19 14:15:41,178 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 880}
+2026-07-19 14:15:41,178 - services.settlement_service - INFO - Settlement generated for item 880. Gross: 381.82, Net: 362.729
+2026-07-19 14:15:41,198 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 310 | Details: None
+2026-07-19 14:15:41,199 - services.settlement_service - INFO - Settlement 310 marked as Paid by Admin 57
+2026-07-19 14:15:41,207 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 881}
+2026-07-19 14:15:41,207 - services.settlement_service - INFO - Settlement generated for item 881. Gross: 611.66, Net: 581.077
+2026-07-19 14:15:41,216 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 311 | Details: None
+2026-07-19 14:15:41,216 - services.settlement_service - INFO - Settlement 311 marked as Paid by Admin 57
+2026-07-19 14:15:41,225 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 882}
+2026-07-19 14:15:41,225 - services.settlement_service - INFO - Settlement generated for item 882. Gross: 370.87, Net: 352.3265
+2026-07-19 14:15:41,233 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 312 | Details: None
+2026-07-19 14:15:41,234 - services.settlement_service - INFO - Settlement 312 marked as Paid by Admin 57
+2026-07-19 14:15:41,241 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 883}
+2026-07-19 14:15:41,242 - services.settlement_service - INFO - Settlement generated for item 883. Gross: 118.02, Net: 112.119
+2026-07-19 14:15:41,249 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 889}
+2026-07-19 14:15:41,250 - services.settlement_service - INFO - Settlement generated for item 889. Gross: 285.01, Net: 270.7595
+2026-07-19 14:15:41,258 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 314 | Details: None
+2026-07-19 14:15:41,259 - services.settlement_service - INFO - Settlement 314 marked as Paid by Admin 57
+2026-07-19 14:15:41,277 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 896}
+2026-07-19 14:15:41,277 - services.settlement_service - INFO - Settlement generated for item 896. Gross: 763.64, Net: 725.458
+2026-07-19 14:15:41,286 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 315 | Details: None
+2026-07-19 14:15:41,287 - services.settlement_service - INFO - Settlement 315 marked as Paid by Admin 57
+2026-07-19 14:15:41,295 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 897}
+2026-07-19 14:15:41,295 - services.settlement_service - INFO - Settlement generated for item 897. Gross: 354.06, Net: 336.357
+2026-07-19 14:15:41,305 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 316 | Details: None
+2026-07-19 14:15:41,305 - services.settlement_service - INFO - Settlement 316 marked as Paid by Admin 57
+2026-07-19 14:15:41,312 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 904}
+2026-07-19 14:15:41,313 - services.settlement_service - INFO - Settlement generated for item 904. Gross: 611.66, Net: 581.077
+2026-07-19 14:15:41,320 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 905}
+2026-07-19 14:15:41,321 - services.settlement_service - INFO - Settlement generated for item 905. Gross: 236.04, Net: 224.238
+2026-07-19 14:15:41,339 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 909}
+2026-07-19 14:15:41,339 - services.settlement_service - INFO - Settlement generated for item 909. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 14:15:41,347 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 319 | Details: None
+2026-07-19 14:15:41,348 - services.settlement_service - INFO - Settlement 319 marked as Paid by Admin 57
+2026-07-19 14:15:41,357 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 910}
+2026-07-19 14:15:41,357 - services.settlement_service - INFO - Settlement generated for item 910. Gross: 142.32, Net: 135.204
+2026-07-19 14:15:41,365 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 923}
+2026-07-19 14:15:41,366 - services.settlement_service - INFO - Settlement generated for item 923. Gross: 110.9, Net: 105.355
+2026-07-19 14:15:41,373 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 924}
+2026-07-19 14:15:41,373 - services.settlement_service - INFO - Settlement generated for item 924. Gross: 285.01, Net: 270.7595
+2026-07-19 14:15:41,380 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 322 | Details: None
+2026-07-19 14:15:41,381 - services.settlement_service - INFO - Settlement 322 marked as Paid by Admin 57
+2026-07-19 14:15:41,389 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 925}
+2026-07-19 14:15:41,390 - services.settlement_service - INFO - Settlement generated for item 925. Gross: 236.04, Net: 224.238
+2026-07-19 14:15:41,408 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 323 | Details: None
+2026-07-19 14:15:41,409 - services.settlement_service - INFO - Settlement 323 marked as Paid by Admin 57
+2026-07-19 14:15:41,417 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 929}
+2026-07-19 14:15:41,418 - services.settlement_service - INFO - Settlement generated for item 929. Gross: 142.32, Net: 135.204
+2026-07-19 14:15:41,426 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 324 | Details: None
+2026-07-19 14:15:41,426 - services.settlement_service - INFO - Settlement 324 marked as Paid by Admin 57
+2026-07-19 14:15:41,435 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 930}
+2026-07-19 14:15:41,436 - services.settlement_service - INFO - Settlement generated for item 930. Gross: 611.66, Net: 581.077
+2026-07-19 14:15:41,443 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 325 | Details: None
+2026-07-19 14:15:41,444 - services.settlement_service - INFO - Settlement 325 marked as Paid by Admin 57
+2026-07-19 14:15:41,452 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 931}
+2026-07-19 14:15:41,453 - services.settlement_service - INFO - Settlement generated for item 931. Gross: 71.16, Net: 67.602
+2026-07-19 14:15:41,460 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 326 | Details: None
+2026-07-19 14:15:41,461 - services.settlement_service - INFO - Settlement 326 marked as Paid by Admin 57
+2026-07-19 14:15:41,469 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 937}
+2026-07-19 14:15:41,469 - services.settlement_service - INFO - Settlement generated for item 937. Gross: 370.87, Net: 352.3265
+2026-07-19 14:15:41,489 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 938}
+2026-07-19 14:15:41,490 - services.settlement_service - INFO - Settlement generated for item 938. Gross: 917.49, Net: 871.6155
+2026-07-19 14:15:41,498 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 328 | Details: None
+2026-07-19 14:15:41,499 - services.settlement_service - INFO - Settlement 328 marked as Paid by Admin 57
+2026-07-19 14:15:41,506 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 939}
+2026-07-19 14:15:41,506 - services.settlement_service - INFO - Settlement generated for item 939. Gross: 855.03, Net: 812.2785
+2026-07-19 14:15:41,515 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 329 | Details: None
+2026-07-19 14:15:41,516 - services.settlement_service - INFO - Settlement 329 marked as Paid by Admin 57
+2026-07-19 14:15:41,523 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 941}
+2026-07-19 14:15:41,524 - services.settlement_service - INFO - Settlement generated for item 941. Gross: 598.68, Net: 568.746
+2026-07-19 14:15:41,532 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 330 | Details: None
+2026-07-19 14:15:41,533 - services.settlement_service - INFO - Settlement 330 marked as Paid by Admin 57
+2026-07-19 14:15:41,541 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 942}
+2026-07-19 14:15:41,541 - services.settlement_service - INFO - Settlement generated for item 942. Gross: 351.39, Net: 333.8205
+2026-07-19 14:15:41,550 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 331 | Details: None
+2026-07-19 14:15:41,550 - services.settlement_service - INFO - Settlement 331 marked as Paid by Admin 57
+2026-07-19 14:15:41,571 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 943}
+2026-07-19 14:15:41,572 - services.settlement_service - INFO - Settlement generated for item 943. Gross: 354.06, Net: 336.357
+2026-07-19 14:15:41,578 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 950}
+2026-07-19 14:15:41,579 - services.settlement_service - INFO - Settlement generated for item 950. Gross: 354.06, Net: 336.357
+2026-07-19 14:15:41,587 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 951}
+2026-07-19 14:15:41,588 - services.settlement_service - INFO - Settlement generated for item 951. Gross: 611.66, Net: 581.077
+2026-07-19 14:15:41,596 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 334 | Details: None
+2026-07-19 14:15:41,597 - services.settlement_service - INFO - Settlement 334 marked as Paid by Admin 57
+2026-07-19 14:15:41,605 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 952}
+2026-07-19 14:15:41,606 - services.settlement_service - INFO - Settlement generated for item 952. Gross: 110.9, Net: 105.355
+2026-07-19 14:15:41,614 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 953}
+2026-07-19 14:15:41,615 - services.settlement_service - INFO - Settlement generated for item 953. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 14:15:41,637 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 336 | Details: None
+2026-07-19 14:15:41,641 - services.settlement_service - INFO - Settlement 336 marked as Paid by Admin 57
+2026-07-19 14:15:41,652 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 973}
+2026-07-19 14:15:41,658 - services.settlement_service - INFO - Settlement generated for item 973. Gross: 611.66, Net: 581.077
+2026-07-19 14:15:41,680 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 337 | Details: None
+2026-07-19 14:15:41,680 - services.settlement_service - INFO - Settlement 337 marked as Paid by Admin 57
+2026-07-19 14:15:41,688 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 977}
+2026-07-19 14:15:41,689 - services.settlement_service - INFO - Settlement generated for item 977. Gross: 354.06, Net: 336.357
+2026-07-19 14:15:41,700 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 338 | Details: None
+2026-07-19 14:15:41,701 - services.settlement_service - INFO - Settlement 338 marked as Paid by Admin 57
+2026-07-19 14:15:41,709 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 978}
+2026-07-19 14:15:41,709 - services.settlement_service - INFO - Settlement generated for item 978. Gross: 741.74, Net: 704.653
+2026-07-19 14:15:41,718 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 339 | Details: None
+2026-07-19 14:15:41,721 - services.settlement_service - INFO - Settlement 339 marked as Paid by Admin 57
+2026-07-19 14:15:41,730 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 979}
+2026-07-19 14:15:41,733 - services.settlement_service - INFO - Settlement generated for item 979. Gross: 213.48, Net: 202.80599999999998
+2026-07-19 14:15:41,741 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 340 | Details: None
+2026-07-19 14:15:41,741 - services.settlement_service - INFO - Settlement 340 marked as Paid by Admin 57
+2026-07-19 14:15:41,761 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 980}
+2026-07-19 14:15:41,761 - services.settlement_service - INFO - Settlement generated for item 980. Gross: 285.01, Net: 270.7595
+2026-07-19 14:15:41,770 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 341 | Details: None
+2026-07-19 14:15:41,771 - services.settlement_service - INFO - Settlement 341 marked as Paid by Admin 57
+2026-07-19 14:15:41,779 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 981}
+2026-07-19 14:15:41,780 - services.settlement_service - INFO - Settlement generated for item 981. Gross: 292.32, Net: 277.704
+2026-07-19 14:15:41,787 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 984}
+2026-07-19 14:15:41,788 - services.settlement_service - INFO - Settlement generated for item 984. Gross: 611.66, Net: 581.077
+2026-07-19 14:15:41,796 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 343 | Details: None
+2026-07-19 14:15:41,797 - services.settlement_service - INFO - Settlement 343 marked as Paid by Admin 57
+2026-07-19 14:15:41,805 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 985}
+2026-07-19 14:15:41,806 - services.settlement_service - INFO - Settlement generated for item 985. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 14:15:41,813 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 986}
+2026-07-19 14:15:41,814 - services.settlement_service - INFO - Settlement generated for item 986. Gross: 142.32, Net: 135.204
+2026-07-19 14:15:41,821 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 345 | Details: None
+2026-07-19 14:15:41,821 - services.settlement_service - INFO - Settlement 345 marked as Paid by Admin 57
+2026-07-19 14:15:41,829 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 992}
+2026-07-19 14:15:41,830 - services.settlement_service - INFO - Settlement generated for item 992. Gross: 292.32, Net: 277.704
+2026-07-19 14:15:41,848 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 346 | Details: None
+2026-07-19 14:15:41,849 - services.settlement_service - INFO - Settlement 346 marked as Paid by Admin 57
+2026-07-19 14:15:41,855 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 993}
+2026-07-19 14:15:41,856 - services.settlement_service - INFO - Settlement generated for item 993. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 14:15:41,863 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 347 | Details: None
+2026-07-19 14:15:41,864 - services.settlement_service - INFO - Settlement 347 marked as Paid by Admin 57
+2026-07-19 14:15:41,876 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 998}
+2026-07-19 14:15:41,877 - services.settlement_service - INFO - Settlement generated for item 998. Gross: 166.35000000000002, Net: 158.03250000000003
+2026-07-19 14:15:41,889 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 348 | Details: None
+2026-07-19 14:15:41,890 - services.settlement_service - INFO - Settlement 348 marked as Paid by Admin 57
+2026-07-19 14:15:41,900 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 999}
+2026-07-19 14:15:41,900 - services.settlement_service - INFO - Settlement generated for item 999. Gross: 299.34, Net: 284.373
+2026-07-19 14:15:41,908 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 349 | Details: None
+2026-07-19 14:15:41,909 - services.settlement_service - INFO - Settlement 349 marked as Paid by Admin 57
+2026-07-19 14:15:41,915 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 1004}
+2026-07-19 14:15:41,916 - services.settlement_service - INFO - Settlement generated for item 1004. Gross: 234.26, Net: 222.547
+2026-07-19 14:15:41,925 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 350 | Details: None
+2026-07-19 14:15:41,925 - services.settlement_service - INFO - Settlement 350 marked as Paid by Admin 57
+2026-07-19 14:15:41,933 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 1005}
+2026-07-19 14:15:41,934 - services.settlement_service - INFO - Settlement generated for item 1005. Gross: 299.34, Net: 284.373
+2026-07-19 14:15:41,954 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 351 | Details: None
+2026-07-19 14:15:41,954 - services.settlement_service - INFO - Settlement 351 marked as Paid by Admin 57
+2026-07-19 14:15:41,961 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 1006}
+2026-07-19 14:15:41,962 - services.settlement_service - INFO - Settlement generated for item 1006. Gross: 236.04, Net: 224.238
+2026-07-19 14:15:41,969 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 1011}
+2026-07-19 14:15:41,969 - services.settlement_service - INFO - Settlement generated for item 1011. Gross: 146.16, Net: 138.852
+2026-07-19 14:15:41,977 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 1012}
+2026-07-19 14:15:41,977 - services.settlement_service - INFO - Settlement generated for item 1012. Gross: 351.39, Net: 333.8205
+2026-07-19 14:15:41,985 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 1013}
+2026-07-19 14:15:41,986 - services.settlement_service - INFO - Settlement generated for item 1013. Gross: 898.02, Net: 853.119
+2026-07-19 14:15:41,993 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 355 | Details: None
+2026-07-19 14:15:41,994 - services.settlement_service - INFO - Settlement 355 marked as Paid by Admin 57
+2026-07-19 14:15:42,002 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 1014}
+2026-07-19 14:15:42,002 - services.settlement_service - INFO - Settlement generated for item 1014. Gross: 305.83, Net: 290.5385
+2026-07-19 14:15:42,010 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 356 | Details: None
+2026-07-19 14:15:42,011 - services.settlement_service - INFO - Settlement 356 marked as Paid by Admin 57
+2026-07-19 14:15:42,017 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 1017}
+2026-07-19 14:15:42,018 - services.settlement_service - INFO - Settlement generated for item 1017. Gross: 305.83, Net: 290.5385
+2026-07-19 14:15:42,038 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 357 | Details: None
+2026-07-19 14:15:42,039 - services.settlement_service - INFO - Settlement 357 marked as Paid by Admin 57
+2026-07-19 14:15:42,051 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 1018}
+2026-07-19 14:15:42,052 - services.settlement_service - INFO - Settlement generated for item 1018. Gross: 1112.6100000000001, Net: 1056.9795000000001
+2026-07-19 14:15:42,060 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 1027}
+2026-07-19 14:15:42,061 - services.settlement_service - INFO - Settlement generated for item 1027. Gross: 236.04, Net: 224.238
+2026-07-19 14:15:42,069 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 1028}
+2026-07-19 14:15:42,069 - services.settlement_service - INFO - Settlement generated for item 1028. Gross: 292.32, Net: 277.704
+2026-07-19 14:15:42,081 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 360 | Details: None
+2026-07-19 14:15:42,082 - services.settlement_service - INFO - Settlement 360 marked as Paid by Admin 57
+2026-07-19 14:15:42,089 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_CREATED | ID: N/A | Details: {'order_item_id': 1029}
+2026-07-19 14:15:42,089 - services.settlement_service - INFO - Settlement generated for item 1029. Gross: 71.16, Net: 67.602
+2026-07-19 14:15:42,097 - services.settlement_service - INFO - SETTLEMENT EVENT: SETTLEMENT_PAID | ID: 361 | Details: None
+2026-07-19 14:15:42,097 - services.settlement_service - INFO - Settlement 361 marked as Paid by Admin 57
+2026-07-19 15:07:04,238 - services.payment_service - INFO - Processed 212 vendor payouts.
+2026-07-19 15:14:17,251 - services.payment_service - INFO - Processed 0 vendor payouts.
+2026-07-20 18:04:05,808 - services.payment_service - INFO - Processed 0 vendor payouts.
+2026-07-20 18:04:38,554 - services.payment_service - INFO - Processed 0 vendor payouts.
+2026-07-22 16:14:52,425 - services.payment_service - INFO - Processed 0 vendor payouts.
+2026-07-22 16:15:16,696 - services.payment_service - INFO - Processed 0 vendor payouts.
