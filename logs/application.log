@@ -2219,3 +2219,26 @@ Exception: DB Failed
 2026-08-28 14:46:52,743 - services.payment_service - INFO - Processed 0 vendor payouts.
 2026-08-28 14:46:52,772 - services.vendor_service - INFO - Product 'Prod A' added for vendor_id 100
 2026-08-28 15:02:35,091 - services.payment_service - INFO - Processed 4 vendor payouts.
+2026-08-28 21:38:56,950 - services.checkout_service - INFO - Successfully processed checkout. Order Code: ORD-1C9F0442
+2026-08-28 21:38:56,962 - services.checkout_service - WARNING - Checkout failed due to inventory constraint: Insufficient stock for product ID: 1. Available: 1, Requested: 5
+2026-08-28 21:38:56,969 - services.checkout_service - ERROR - Unexpected error during checkout processing: DB Failed
+Traceback (most recent call last):
+  File "D:\Customer Insights Project\services\checkout_service.py", line 27, in process_checkout
+    order_id = create_order(
+        cursor, order_code, customer_name, customer_email,
+        customer_phone, order_date, region, total_amount
+    )
+  File "C:\Users\Yash Verma\AppData\Local\Programs\Python\Python314\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yash Verma\AppData\Local\Programs\Python\Python314\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yash Verma\AppData\Local\Programs\Python\Python314\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+Exception: DB Failed
+2026-08-28 21:38:56,993 - services.inventory_service - INFO - Inventory added for product 10 by user_id 1
+2026-08-28 21:38:57,006 - services.inventory_service - INFO - Inventory 5 updated by user_id 1
+2026-08-28 21:38:57,021 - services.payment_service - INFO - Processed 1 vendor payouts.
+2026-08-28 21:38:57,026 - services.payment_service - INFO - Processed 0 vendor payouts.
+2026-08-28 21:38:57,053 - services.vendor_service - INFO - Product 'Prod A' added for vendor_id 100

@@ -717,42 +717,143 @@ div[data-testid="stExpander"] summary[title]:hover::after,
 }
 
 /* ========================================================================= */
-/* STATIC TOP NAVBAR                                                         */
+/* FIXED TOP NAVBAR — position:sticky fails inside overflow-y:auto,          */
+/* so we use fixed + push content down with padding-top on block-container.  */
 /* ========================================================================= */
+
+/* --- The Navbar Bar Itself --- */
 div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) {
-    background: rgba(15, 23, 42, 0.85) !important; 
-    backdrop-filter: blur(16px) !important; 
-    -webkit-backdrop-filter: blur(16px) !important; 
-    border: 1px solid rgba(255, 255, 255, 0.05) !important; 
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important; 
-    padding: 6px 20px !important; 
-    border-radius: var(--sys-border-radius-lg) !important;
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4) !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 300px !important;   /* matches sidebar expanded width */
+    right: 0 !important;
+    z-index: 99999 !important;
+
+    /* Glassmorphism dark background */
+    background: linear-gradient(
+        135deg,
+        rgba(10, 18, 35, 0.97) 0%,
+        rgba(15, 25, 50, 0.95) 50%,
+        rgba(10, 18, 35, 0.97) 100%
+    ) !important;
+    backdrop-filter: blur(24px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(24px) saturate(180%) !important;
+
+    /* Borders */
+    border: none !important;
+    border-bottom: 1px solid rgba(99, 179, 237, 0.18) !important;
+
+    /* Sizing & spacing */
+    height: 68px !important;
+    padding: 0 2.5rem !important;
+    margin: 0 !important;
+    width: auto !important;
+    max-width: none !important;
+
+    /* Layout */
+    display: flex !important;
     align-items: center !important;
-    margin-bottom: 25px !important;
     flex-wrap: nowrap !important;
-    height: 82px !important; 
+
+    /* Shadow */
+    box-shadow:
+        0 1px 0 rgba(99, 179, 237, 0.12),
+        0 8px 32px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+
+    transition: box-shadow 0.3s ease, background 0.3s ease !important;
 }
 
+/* Sidebar auto-adjust: use :has() on root so fixed left tracks sidebar state */
+[data-testid="stAppViewContainer"]:has([data-testid="stSidebar"][aria-expanded="true"])
+div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) {
+    left: 300px !important;
+}
+
+[data-testid="stAppViewContainer"]:has([data-testid="stSidebar"][aria-expanded="false"])
+div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) {
+    left: 70px !important;
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease !important;
+}
+
+/* Ensure all navbar children are fully interactive (pointer-events fix) */
+div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) *,
+div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) button,
+div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) input,
+div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) [data-testid="stColumn"],
+div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) [data-testid="stPopover"] {
+    pointer-events: auto !important;
+}
+
+/* --- Brand title inside navbar --- */
 div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) h3 {
     margin: 0 !important;
     padding: 0 !important;
-    font-size: 1.25rem !important;
+    font-size: 1.15rem !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.02em !important;
     line-height: 1.2 !important;
+    background: linear-gradient(90deg, #63b3ed, #9f7aea) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
 }
+
+/* --- Caption / subtitle inside navbar --- */
 div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) p,
 div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) .stMarkdown p {
     margin: 0 !important;
     padding: 0 !important;
-    font-size: 0.85rem !important;
+    font-size: 0.75rem !important;
     line-height: 1.2 !important;
+    color: rgba(148, 163, 184, 0.8) !important;
+    letter-spacing: 0.03em !important;
 }
 
+/* --- Search input inside navbar --- */
+div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) input {
+    background: rgba(255, 255, 255, 0.06) !important;
+    border: 1px solid rgba(99, 179, 237, 0.2) !important;
+    border-radius: 8px !important;
+    color: #e2e8f0 !important;
+    padding: 0.45rem 1rem !important;
+    font-size: 0.9rem !important;
+    transition: border-color 0.2s ease, background 0.2s ease !important;
+    height: 38px !important;
+}
+
+div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) input:focus {
+    background: rgba(255, 255, 255, 0.10) !important;
+    border-color: rgba(99, 179, 237, 0.55) !important;
+    box-shadow: 0 0 0 3px rgba(99, 179, 237, 0.12) !important;
+    outline: none !important;
+}
+
+/* --- Popover buttons (bell, user) inside navbar --- */
 div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) [data-testid="stPopover"] {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
 }
+
+div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) [data-testid="stPopover"] button {
+    background: rgba(255, 255, 255, 0.06) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px !important;
+    color: #e2e8f0 !important;
+    height: 38px !important;
+    padding: 0 0.85rem !important;
+    font-size: 0.9rem !important;
+    transition: background 0.2s ease, border-color 0.2s ease !important;
+    cursor: pointer !important;
+}
+
+div[data-testid="stHorizontalBlock"]:has(input[placeholder="Global Search..."]) [data-testid="stPopover"] button:hover {
+    background: rgba(99, 179, 237, 0.15) !important;
+    border-color: rgba(99, 179, 237, 0.35) !important;
+}
+
+
 
 /* ========================================================================= */
 /* ENTERPRISE LAYOUT ARCHITECTURE                                           */
@@ -775,11 +876,20 @@ section.main {
     margin-left: 0 !important;
 }
 
+/* block-container gets pointer-events:none so its top padding (where the fixed
+   navbar sits) doesn't swallow click events meant for the navbar above it.   
+   All actual page content children re-enable pointer-events normally.        */
 section.main .block-container {
     max-width: 100% !important;
     width: 100% !important;
     padding-left: 2rem !important;
     padding-right: 2rem !important;
+    padding-top: 80px !important;  /* compensate for fixed 68px navbar + 12px gap */
+    pointer-events: none !important;
+}
+
+section.main .block-container > * {
+    pointer-events: auto !important;
 }
 
 [data-testid="stSidebar"] {
